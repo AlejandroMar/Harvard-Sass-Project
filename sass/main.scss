@@ -1,1 +1,7 @@
+//custom scss
+@import "./abstracts/variables";
+
+@import "./base/base";
+
+//bootstrap scss
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
