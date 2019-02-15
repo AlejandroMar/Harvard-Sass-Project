@@ -1,19 +1,18 @@
 html {
   font-size: 62.5%; }
 
-.navigation a {
-  color: green; }
-
-.navigation .nav-link {
-  color: green; }
-  .navigation .nav-link:link {
+.navigation .nav {
+  font-size: 1.5rem; }
+  .navigation .nav-link {
     color: green; }
-  .navigation .nav-link:visited {
-    color: green; }
-  .navigation .nav-link:hover {
-    color: green; }
-  .navigation .nav-link:visited {
-    color: green; }
+    .navigation .nav-link:link {
+      color: green; }
+    .navigation .nav-link:visited {
+      color: green; }
+    .navigation .nav-link:hover {
+      color: green; }
+    .navigation .nav-link:visited {
+      color: green; }
 
 .navigation__logo {
   color: white; }
