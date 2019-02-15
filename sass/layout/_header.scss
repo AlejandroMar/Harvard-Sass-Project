@@ -16,15 +16,16 @@
     &__titile {
       text-transform: uppercase;
       &-sub {
-        font-size: 20px;
+        font-size: 2.5rem;
       }
       &-main {
-        font-size: 56px;
+        font-size: 6rem;
       }
     }
 
     &__paragraph {
       text-align: center;
+      font-size: 1.5rem;
     }
   }
 
