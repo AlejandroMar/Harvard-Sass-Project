@@ -4,11 +4,15 @@
   "description": "web page for restaurant",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss public/css/style.css -w"
   },
   "author": "Alejandro",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
   }
 }
