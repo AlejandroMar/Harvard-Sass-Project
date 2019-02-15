@@ -1,0 +1,26 @@
+.navigation {
+  a {
+    color: green;
+  }
+  .nav {
+    &-link {
+      color: green;
+      &:link {
+        color: green;
+      }
+
+      &:visited {
+        color: green;
+      }
+      &:hover {
+        color: green;
+      }
+      &:visited {
+        color: green;
+      }
+    }
+  }
+  &__logo {
+    color: white;
+  }
+}
