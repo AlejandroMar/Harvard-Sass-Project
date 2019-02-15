@@ -1,7 +1,10 @@
 //custom scss
-@import "./abstracts/variables";
+@import "./abstracts/custom-variables";
 
 @import "./base/base";
+@import "./base/typography";
+
+@import "./components/custom-nav";
 
 //bootstrap scss
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
