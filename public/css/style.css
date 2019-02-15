@@ -17,6 +17,34 @@ html {
 .navigation__logo {
   color: white; }
 
+.header {
+  height: 100vh;
+  position: relative;
+  background-image: url("../img/hero-2.jpg");
+  background-size: cover;
+  background-position: top; }
+  .header .hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; }
+    .header .hero__titile {
+      text-transform: uppercase; }
+      .header .hero__titile-sub {
+        font-size: 20px; }
+      .header .hero__titile-main {
+        font-size: 56px; }
+    .header .hero__paragraph {
+      text-align: center; }
+  .header__button {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase; }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors

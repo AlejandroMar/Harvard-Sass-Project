@@ -1,0 +1,38 @@
+.header {
+  height: 100vh;
+  position: relative;
+  background-image: url("../img/hero-2.jpg");
+  background-size: cover;
+  background-position: top;
+
+  .hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+
+    &__titile {
+      text-transform: uppercase;
+      &-sub {
+        font-size: 20px;
+      }
+      &-main {
+        font-size: 56px;
+      }
+    }
+
+    &__paragraph {
+      text-align: center;
+    }
+  }
+
+  &__button {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+  }
+}
