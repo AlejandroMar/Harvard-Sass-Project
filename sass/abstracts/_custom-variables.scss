@@ -1,6 +1,9 @@
 // COlORS
-
-$color-primary: #55c57a;
+$theme-colors: (
+  "primary": #22a963,
+  "danger": #ff4136
+);
+$color-primary: #22a963;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
 
