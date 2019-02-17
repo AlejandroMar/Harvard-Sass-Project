@@ -2,24 +2,21 @@
   .nav {
     font-size: 1.5rem;
     &-link {
-      color: green;
+      color: $color-white;
       &:link {
-        color: green;
+        color: $color-white;
       }
 
       &:visited {
-        color: green;
+        color: $color-white;
       }
       &:hover {
-        color: green;
-      }
-      &:visited {
-        color: green;
+        color: $color-white;
       }
     }
   }
   &__logo {
-    color: white;
+    color: $color-white;
     text-transform: uppercase;
   }
 }

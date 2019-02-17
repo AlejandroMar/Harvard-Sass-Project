@@ -4,18 +4,16 @@ html {
 .navigation .nav {
   font-size: 1.5rem; }
   .navigation .nav-link {
-    color: green; }
+    color: #fff; }
     .navigation .nav-link:link {
-      color: green; }
+      color: #fff; }
     .navigation .nav-link:visited {
-      color: green; }
+      color: #fff; }
     .navigation .nav-link:hover {
-      color: green; }
-    .navigation .nav-link:visited {
-      color: green; }
+      color: #fff; }
 
 .navigation__logo {
-  color: white;
+  color: #fff;
   text-transform: uppercase; }
 
 .header {
@@ -28,9 +26,9 @@ html {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
     text-align: center;
-    color: white; }
+    color: #fff; }
     .header .hero__titile {
       text-transform: uppercase; }
       .header .hero__titile-sub {
@@ -40,12 +38,9 @@ html {
     .header .hero__paragraph {
       text-align: center;
       font-size: 1.5rem; }
-  .header__button {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-transform: uppercase; }
+    .header .hero__button {
+      background-color: #55c57a;
+      border-color: transparent; }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
