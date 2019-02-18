@@ -71,6 +71,9 @@ html {
       font-size: 3rem;
       text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
 
+.card {
+  margin: 0 !important; }
+
 .header {
   height: 100vh;
   position: relative;
