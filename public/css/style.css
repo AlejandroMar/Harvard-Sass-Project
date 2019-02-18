@@ -20,6 +20,57 @@ html {
   background-color: #22a963;
   border-color: transparent; }
 
+.motives .motives__img-1, .motives .motives__img-2, .motives .motives__img-3 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s; }
+
+.motives {
+  /* hover text */ }
+  .motives .motives__img-1 > img {
+    width: 100%;
+    transition: all 0.3s; }
+  .motives .motives__img-1:hover > .motives__hovertext {
+    visibility: visible;
+    opacity: 1; }
+  .motives .motives__img-1:hover > img {
+    filter: brightness(50%); }
+  .motives .motives__img-2 > img {
+    width: 100%;
+    transition: all 0.3s; }
+  .motives .motives__img-2:hover > .motives__hovertext {
+    visibility: visible;
+    opacity: 1; }
+  .motives .motives__img-2:hover > img {
+    filter: brightness(50%); }
+  .motives .motives__img-3 > img {
+    width: 100%;
+    transition: all 0.3s; }
+  .motives .motives__img-3:hover > .motives__hovertext {
+    visibility: visible;
+    opacity: 1; }
+  .motives .motives__img-3:hover > img {
+    filter: brightness(50%); }
+  .motives__hovertext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translatex(-50%);
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.4s;
+    text-shadow: 12rem 1.5rem 4rem rgba(0, 0, 0, 0.5);
+    visibility: hidden; }
+    .motives__hovertext-h3 {
+      font-size: 2.5rem;
+      text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
+    .motives__hovertext-h2 {
+      font-size: 3rem;
+      text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
+
 .header {
   height: 100vh;
   position: relative;

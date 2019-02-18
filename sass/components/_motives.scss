@@ -1,0 +1,52 @@
+%motives-common {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.motives {
+  @for $i from 1 through 3 {
+    .motives__img-#{$i} {
+      @extend %motives-common;
+      > img {
+        width: 100%;
+        transition: all 0.3s;
+      }
+    }
+    .motives__img-#{$i}:hover > .motives__hovertext {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .motives__img-#{$i}:hover > img {
+      filter: brightness(50%);
+    }
+  }
+
+  /* hover text */
+
+  &__hovertext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translatex(-50%);
+    color: $color-white;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.4s;
+    text-shadow: 12rem 1.5rem 4rem rgba($color-black, 0.5);
+    visibility: hidden;
+
+    &-h3 {
+      font-size: 2.5rem;
+      text-shadow: 1rem 1.5rem 4rem rgba($color-black, 0.5);
+    }
+
+    &-h2 {
+      font-size: 3rem;
+      text-shadow: 1rem 1.5rem 4rem rgba($color-black, 0.5);
+    }
+  }
+}
