@@ -1,0 +1,42 @@
+.about-us {
+  &__text {
+    padding: 10rem 5rem !important;
+    border-right: 1px solid rgb(162, 159, 159);
+    border-left: 1px solid rgb(162, 159, 159);
+  }
+  &__title {
+    font-size: 3rem;
+  }
+
+  &__sub-title {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  &__paragraph {
+    font-size: 1.5rem;
+  }
+
+  &__firma {
+    width: 23%;
+    height: 23%;
+    transform: rotateZ(-25deg);
+  }
+
+  &__foto {
+    text-align: center;
+    padding-top: 15%;
+    border-right: 1px solid rgb(162, 159, 159);
+
+    &-block {
+      margin: 0 auto;
+    }
+    &-fruit {
+      width: 40%;
+      border-radius: 50%;
+    }
+    &-subhead {
+      font-style: italic;
+    }
+  }
+}
