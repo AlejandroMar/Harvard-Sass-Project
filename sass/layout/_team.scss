@@ -1,20 +1,3 @@
 .team {
   margin: 8rem 0 12rem 0;
-
-  &__text {
-    margin-bottom: 5rem;
-
-    &-h2 {
-      font-size: $title-font;
-    }
-
-    &-h3 {
-      font-size: $sub-title-font;
-    }
-
-    &-paragraph {
-      font-size: $default-font-size;
-      color: $color-grey-dark;
-    }
-  }
 }
