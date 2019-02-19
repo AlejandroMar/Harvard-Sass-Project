@@ -72,7 +72,23 @@ html {
       text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
 
 .card {
-  margin: 0 !important; }
+  margin: 0;
+  overflow: hidden;
+  box-shadow: 0.6rem 0.8rem 6rem rgba(0, 0, 0, 0.5);
+  position: absolute;
+  transition: all 0.2s; }
+  .card-body {
+    padding: 1rem !important; }
+  .card-title {
+    font-size: 2rem;
+    margin-top: 0.5rem !important; }
+  .card-text {
+    font-size: 1.5rem;
+    color: #777;
+    margin-bottom: 0.5rem !important; }
+  .card:hover {
+    box-shadow: 0.7rem 0.9rem 10rem rgba(0, 0, 0, 0.5);
+    transform: translateY(-10px); }
 
 .header {
   height: 100vh;
@@ -128,6 +144,18 @@ html {
     border-radius: 50%; }
   .about-us__foto-subhead {
     font-style: italic; }
+
+.team {
+  margin: 8rem 0 12rem 0; }
+  .team__text {
+    margin-bottom: 5rem; }
+    .team__text-h2 {
+      font-size: 5rem; }
+    .team__text-h3 {
+      font-size: 2rem; }
+    .team__text-paragraph {
+      font-size: 1.6rem;
+      color: #777; }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -3321,16 +3349,16 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem; }
+  border-radius: 5px; }
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
   .card > .list-group:first-child .list-group-item:first-child {
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem; }
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
   .card > .list-group:last-child .list-group-item:last-child {
-    border-bottom-right-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem; }
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; }
 
 .card-body {
   flex: 1 1 auto;
@@ -3358,7 +3386,7 @@ input[type="button"].btn-block {
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
   .card-header:first-child {
-    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; }
+    border-radius: calc(5px - 1px) calc(5px - 1px) 0 0; }
   .card-header + .list-group .list-group-item:first-child {
     border-top: 0; }
 
@@ -3367,7 +3395,7 @@ input[type="button"].btn-block {
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125); }
   .card-footer:last-child {
-    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px); }
+    border-radius: 0 0 calc(5px - 1px) calc(5px - 1px); }
 
 .card-header-tabs {
   margin-right: -0.625rem;
@@ -3389,17 +3417,17 @@ input[type="button"].btn-block {
 
 .card-img {
   width: 100%;
-  border-radius: calc(0.25rem - 1px); }
+  border-radius: calc(5px - 1px); }
 
 .card-img-top {
   width: 100%;
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px); }
+  border-top-left-radius: calc(5px - 1px);
+  border-top-right-radius: calc(5px - 1px); }
 
 .card-img-bottom {
   width: 100%;
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px); }
+  border-bottom-right-radius: calc(5px - 1px);
+  border-bottom-left-radius: calc(5px - 1px); }
 
 .card-deck {
   display: flex;
