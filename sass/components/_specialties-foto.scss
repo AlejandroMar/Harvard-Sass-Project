@@ -1,0 +1,54 @@
+%specialties-common {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.specialties {
+  @for $i from 1 through 4 {
+    .specialties__img-#{$i} {
+      @extend %specialties-common;
+      > img {
+        width: 100%;
+        transition: all 0.3s;
+      }
+    }
+    .specialties__img-#{$i}:hover > .specialties__hovertext {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .specialties__img-#{$i}:hover > img {
+      filter: brightness(50%);
+    }
+  }
+
+  &__hovertext {
+    position: absolute;
+    border: 2px $color-white solid;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+    background-color: rgba($color-secondary-dark, 0.1);
+    color: $color-white;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.4s;
+    text-shadow: 12rem 1.5rem 4rem rgba($color-black, 0.5);
+    visibility: hidden;
+
+    &-h3 {
+      margin-top: 25%;
+      font-size: 2rem;
+      text-shadow: 1rem 1.5rem 4rem rgba($color-black, 0.5);
+    }
+
+    &-h2 {
+      font-size: 2.5rem;
+      text-shadow: 1rem 1.5rem 4rem rgba($color-black, 0.5);
+    }
+  }
+}
