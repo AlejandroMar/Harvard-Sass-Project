@@ -252,6 +252,11 @@ html {
   .specialties p {
     margin-bottom: 10rem; }
 
+.reviews {
+  margin-bottom: 10rem; }
+  .reviews__check-menu {
+    margin: 10rem 0; }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
