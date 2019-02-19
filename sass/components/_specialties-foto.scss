@@ -1,29 +1,5 @@
-%specialties-common {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-  position: relative;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
 .specialties {
-  @for $i from 1 through 4 {
-    .specialties__img-#{$i} {
-      @extend %specialties-common;
-      > img {
-        width: 100%;
-        transition: all 0.3s;
-      }
-    }
-    .specialties__img-#{$i}:hover > .specialties__hovertext {
-      visibility: visible;
-      opacity: 1;
-    }
-
-    .specialties__img-#{$i}:hover > img {
-      filter: brightness(50%);
-    }
-  }
+  @include fotoOverlay;
 
   &__hovertext {
     position: absolute;
