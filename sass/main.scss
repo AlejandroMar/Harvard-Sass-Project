@@ -1,5 +1,6 @@
 //custom scss
 @import "./abstracts/custom-variables";
+@import "./abstracts/mixins";
 
 @import "./base/base";
 @import "./base/custom-typography";
@@ -9,6 +10,7 @@
 @import "./components/motives";
 @import "./components/card";
 @import "./components/specialties-foto";
+@import "./components/title-comp";
 
 @import "./layout/header";
 @import "./layout/about";

@@ -20,38 +20,45 @@ html {
   background-color: #22a963;
   border-color: transparent; }
 
-.motives .motives__img-1, .motives .motives__img-2, .motives .motives__img-3 {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-  position: relative;
-  cursor: pointer;
-  transition: all 0.3s; }
-
 .motives {
   /* hover text */ }
-  .motives .motives__img-1 > img {
+  .motives .motives__img-1, .motives .motives__img-2, .motives .motives__img-3, .motives .motives__img-4, .motives .specialties__img-1, .motives .specialties__img-2, .motives .specialties__img-3, .motives .specialties__img-4 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s; }
+  .motives__img-1 > img {
     width: 100%;
     transition: all 0.3s; }
-  .motives .motives__img-1:hover > .motives__hovertext {
+  .motives__img-1:hover > .motives__hovertext {
     visibility: visible;
     opacity: 1; }
-  .motives .motives__img-1:hover > img {
+  .motives__img-1:hover > img {
     filter: brightness(50%); }
-  .motives .motives__img-2 > img {
+  .motives__img-2 > img {
     width: 100%;
     transition: all 0.3s; }
-  .motives .motives__img-2:hover > .motives__hovertext {
+  .motives__img-2:hover > .motives__hovertext {
     visibility: visible;
     opacity: 1; }
-  .motives .motives__img-2:hover > img {
+  .motives__img-2:hover > img {
     filter: brightness(50%); }
-  .motives .motives__img-3 > img {
+  .motives__img-3 > img {
     width: 100%;
     transition: all 0.3s; }
-  .motives .motives__img-3:hover > .motives__hovertext {
+  .motives__img-3:hover > .motives__hovertext {
     visibility: visible;
     opacity: 1; }
-  .motives .motives__img-3:hover > img {
+  .motives__img-3:hover > img {
+    filter: brightness(50%); }
+  .motives__img-4 > img {
+    width: 100%;
+    transition: all 0.3s; }
+  .motives__img-4:hover > .motives__hovertext {
+    visibility: visible;
+    opacity: 1; }
+  .motives__img-4:hover > img {
     filter: brightness(50%); }
   .motives__hovertext {
     position: absolute;
@@ -90,55 +97,55 @@ html {
     box-shadow: 0.7rem 0.9rem 10rem rgba(0, 0, 0, 0.5);
     transform: translateY(-10px); }
 
-.specialties .specialties__img-1, .specialties .specialties__img-2, .specialties .specialties__img-3, .specialties .specialties__img-4 {
+.specialties .motives__img-1, .specialties .motives__img-2, .specialties .motives__img-3, .specialties .motives__img-4, .specialties .specialties__img-1, .specialties .specialties__img-2, .specialties .specialties__img-3, .specialties .specialties__img-4 {
   padding-right: 0 !important;
   padding-left: 0 !important;
   position: relative;
   cursor: pointer;
   transition: all 0.3s; }
 
-.specialties .specialties__img-1 > img {
+.specialties__img-1 > img {
   width: 100%;
   transition: all 0.3s; }
 
-.specialties .specialties__img-1:hover > .specialties__hovertext {
+.specialties__img-1:hover > .specialties__hovertext {
   visibility: visible;
   opacity: 1; }
 
-.specialties .specialties__img-1:hover > img {
+.specialties__img-1:hover > img {
   filter: brightness(50%); }
 
-.specialties .specialties__img-2 > img {
+.specialties__img-2 > img {
   width: 100%;
   transition: all 0.3s; }
 
-.specialties .specialties__img-2:hover > .specialties__hovertext {
+.specialties__img-2:hover > .specialties__hovertext {
   visibility: visible;
   opacity: 1; }
 
-.specialties .specialties__img-2:hover > img {
+.specialties__img-2:hover > img {
   filter: brightness(50%); }
 
-.specialties .specialties__img-3 > img {
+.specialties__img-3 > img {
   width: 100%;
   transition: all 0.3s; }
 
-.specialties .specialties__img-3:hover > .specialties__hovertext {
+.specialties__img-3:hover > .specialties__hovertext {
   visibility: visible;
   opacity: 1; }
 
-.specialties .specialties__img-3:hover > img {
+.specialties__img-3:hover > img {
   filter: brightness(50%); }
 
-.specialties .specialties__img-4 > img {
+.specialties__img-4 > img {
   width: 100%;
   transition: all 0.3s; }
 
-.specialties .specialties__img-4:hover > .specialties__hovertext {
+.specialties__img-4:hover > .specialties__hovertext {
   visibility: visible;
   opacity: 1; }
 
-.specialties .specialties__img-4:hover > img {
+.specialties__img-4:hover > img {
   filter: brightness(50%); }
 
 .specialties__hovertext {
@@ -162,6 +169,17 @@ html {
   .specialties__hovertext-h2 {
     font-size: 2.5rem;
     text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
+
+.title-comp__text {
+  margin-bottom: 5rem; }
+  .title-comp__text-h2 {
+    font-size: 5rem; }
+  .title-comp__text-h3 {
+    font-size: 2rem; }
+  .title-comp__text-paragraph {
+    font-size: 1.6rem;
+    color: #777;
+    margin-bottom: 5rem; }
 
 .header {
   height: 100vh;
@@ -221,15 +239,6 @@ html {
 
 .team {
   margin: 8rem 0 12rem 0; }
-  .team__text {
-    margin-bottom: 5rem; }
-    .team__text-h2 {
-      font-size: 5rem; }
-    .team__text-h3 {
-      font-size: 2rem; }
-    .team__text-paragraph {
-      font-size: 1.6rem;
-      color: #777; }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
