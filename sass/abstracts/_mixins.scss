@@ -1,0 +1,28 @@
+@mixin fotoOverlay {
+  %common {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  // it will be motive__img-1 or specialties__img-1
+  @for $i from 1 through 4 {
+    &__img-#{$i} {
+      @extend %common;
+      > img {
+        width: 100%;
+        transition: all 0.3s;
+      }
+    }
+    &__img-#{$i}:hover > &__hovertext {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    &__img-#{$i}:hover > img {
+      filter: brightness(50%);
+    }
+  }
+}
