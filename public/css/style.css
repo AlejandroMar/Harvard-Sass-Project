@@ -94,8 +94,9 @@ html {
   height: 100vh;
   position: relative;
   background-image: url("../img/hero-2.jpg");
+  background-position: fixed;
   background-size: cover;
-  background-position: top; }
+  background-attachment: fixed; }
   .header .hero {
     position: absolute;
     top: 50%;
