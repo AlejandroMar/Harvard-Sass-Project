@@ -1,7 +1,5 @@
 .title-comp {
   &__text {
-    margin-bottom: 5rem;
-
     &-h2 {
       font-size: $title-font;
     }
@@ -13,7 +11,6 @@
     &-paragraph {
       font-size: $default-font-size;
       color: $color-grey-dark;
-      margin-bottom: 5rem;
     }
   }
 }
