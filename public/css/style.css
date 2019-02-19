@@ -180,6 +180,9 @@ html {
   font-size: 1.6rem;
   color: #777; }
 
+.menu-btn-comp {
+  margin: 10rem 0; }
+
 .header {
   height: 100vh;
   position: relative;
@@ -254,8 +257,6 @@ html {
 
 .reviews {
   margin-bottom: 10rem; }
-  .reviews__check-menu {
-    margin: 10rem 0; }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
