@@ -1,13 +1,40 @@
+$aboutAndAddressMargin: 5rem;
+
 .footer {
   background-color: $color-grey-dark-3;
   height: 50vh;
-  padding: 5rem;
+  padding: 5rem 0 2rem 0;
 
   &__about {
     color: $color-white;
+    font-size: 1.6rem;
+    margin-top: $aboutAndAddressMargin;
+    letter-spacing: 2px;
+
+    > h3 {
+      color: $color-primary;
+      font-weight: 300;
+    }
+
+    > p {
+      font-weight: 300;
+      letter-spacing: 2px;
+    }
+  }
+
+  &__media-icons {
+    width: 50%;
   }
   &__address {
     color: $color-white;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: $aboutAndAddressMargin;
+    letter-spacing: 2px;
+
+    .address-color {
+      color: $color-primary;
+    }
   }
 
   &__form {
@@ -20,8 +47,9 @@
       background-color: $color-grey-light-2;
       padding: 3rem;
       width: 90%;
+
       top: -10rem;
-      left: 0;
+      left: 5%;
       box-shadow: 0.7rem 0.9rem 10rem rgba($color-black, 0.5);
       border-radius: 5px;
     }
@@ -33,7 +61,7 @@ label {
   font-size: 1.5rem;
 }
 form div {
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 
 .form__input {
