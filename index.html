@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="public/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <title>Abacaxi</title>
 </head>
@@ -280,6 +282,63 @@
             <hr class="mt-5">
         </div>
     </section>
+
+    <!-- footer and form -->
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 footer__about">
+                    <h3>ABACAXI</h3>
+                    <p>Lorem ipsum dolor sit,
+                        <br> amet consectetur adipisicing
+                        <br> elit. Beatae autem perspiciatis
+                        <br> e cum possimus quia adipisci!</p>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+
+                <!-- form -->
+                <div class="col-md-3 footer__form">
+                    <form action="/my-handling-form-page" method="post" class="reservation-form">
+                        <!-- Name Field -->
+                        <div>
+                            <label for="name">Name</label>
+                            <input class="form__input" type="text" id="name" name="User_name"
+                                placeholder="Enter your name...">
+                        </div>
+                        <!--Email Field-->
+                        <div>
+                            <label for="mail">Email Adress</label>
+                            <input class="form__input" type="mail" id="mail" name="User_mail"
+                                placeholder="Enter your email adress...">
+                        </div>
+                        <!-- Phone Field -->
+                        <div>
+                            <label for="phone">Phone</label>
+                            <input class="form__input" type="tel" id="phone" name="User_phone"
+                                placeholder="Type your phone...">
+                        </div>
+                        <div>
+                            <label for="msg">Message</label>
+                            <textarea class="form__input form__input--msg" name="user_message" id="msg" cols="30"
+                                rows="5" placeholder="add any comment you think is necesary"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <!-- address -->
+                <div class="col-md-3 footer__address">
+                    <p class="footer__address-p">OUR ADDRESS Some city, another street 12/345 -One more city, Some
+                        street
+                        12/345 PHONE and EMAIL Call us please:
+                        065 123 456 789 - 066 123 456 789 supportteam@gmail.com -supportteam@yhaoo.com
+                    </p>
+                </div>
+            </div>
+    </footer>
 
 
 
