@@ -1,6 +1,11 @@
 .navigation {
+  border-bottom: 2px solid $color-grey-dark-3;
   .nav {
     font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 300;
+
     &-link {
       color: $color-white;
       &:link {
