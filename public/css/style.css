@@ -220,7 +220,7 @@ html {
     .header .hero__arrow {
       font-size: 3.2rem;
       display: block;
-      margin-top: 10rem; }
+      margin-top: 10%; }
 
 .about-us__text {
   padding: 10rem 5rem !important;
