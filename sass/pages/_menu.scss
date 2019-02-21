@@ -1,0 +1,10 @@
+.menu {
+  border: 0.5rem solid $menu-border-color;
+  padding: 2rem;
+  box-shadow: 0.7rem 0.9rem 3rem rgba($color-black, 0.5);
+
+  .menu__body {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

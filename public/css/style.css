@@ -352,6 +352,14 @@ form div {
   height: 400px;
   background-color: grey; }
 
+.menu {
+  border: 0.5rem solid #d2d2d2;
+  padding: 2rem;
+  box-shadow: 0.7rem 0.9rem 3rem rgba(0, 0, 0, 0.5); }
+  .menu .menu__body {
+    width: 80%;
+    margin: 0 auto; }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors

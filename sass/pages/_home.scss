@@ -1,0 +1,23 @@
+//custom scss
+@import "../abstracts/custom-variables";
+@import "../abstracts/mixins";
+
+@import "../base/base";
+@import "../base/custom-typography";
+
+@import "../components/custom-nav";
+@import "../components/button";
+@import "../components/motives";
+@import "../components/card";
+@import "../components/specialties-foto";
+@import "../components/title-comp";
+@import "../components/check-menu-comp";
+
+@import "../layout/header";
+@import "../layout/about";
+@import "../layout/team";
+@import "../layout/message";
+@import "../layout/specialities";
+@import "../layout/reviews";
+@import "../layout/footer";
+@import "../layout/map";
