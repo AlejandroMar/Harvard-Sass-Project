@@ -23,6 +23,9 @@ $color-grey-dark-3: #333;
 $color-white: #fff;
 $color-black: #000;
 
+$nav-tabs-link-active-bg: #cccccc;
+$nav-tabs-link-hover-bg: #dddddd;
+
 // fonts
 $default-font-size: 1.6rem;
 $title-font: 5rem;
@@ -42,3 +45,6 @@ $btn-font-size: 1.8rem;
 // menu border
 
 $menu-border-color: #d2d2d2;
+
+//tabs
+$nav-tabs-border-radius: 0;

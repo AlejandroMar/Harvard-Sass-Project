@@ -17,8 +17,18 @@
 
     <!-- menu -->
 
+    <header class="menu__header">
+        <div class="title-comp text-center menu__title">
+            <h3 class="title-comp__text-h3">menu</h3>
+            <h2 class="title-comp__text-h2">- our delicious meals -</h2>
+            <p class="title-comp__text-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.
+                <br> Tenetur iusto, officiis illo quidem natus reiciendis.</p>
+        </div>
+    </header>
+
     <section class="menu container">
-        <div class="title-comp text-center">
+        <div class="title-comp text-center menu__title">
             <h3 class="title-comp__text-h3">menu</h3>
             <h2 class="title-comp__text-h2">- our delicious meals -</h2>
             <p class="title-comp__text-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing
@@ -28,69 +38,103 @@
         <div class="menu__body">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                        aria-controls="home" aria-selected="true">desayuno</a>
+                    <a class="nav-link active tab-menu" id="desayuno-tab" data-toggle="tab" href="#desayuno" role="tab"
+                        aria-controls="desayuno" aria-selected="true">Desayuno</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                        aria-controls="profile" aria-selected="false">Almuerzo</a>
+                    <a class="nav-link tab-menu" id="almuerzo-tab" data-toggle="tab" href="#almuerzo" role="tab"
+                        aria-controls="almuerzo" aria-selected="false">Almuerzo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                        aria-controls="contact" aria-selected="false">Cena</a>
+                    <a class="nav-link tab-menu" id="cena-tab" data-toggle="tab" href="#cena" role="tab"
+                        aria-controls="cena" aria-selected="false">Cena</a>
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="tab-pane fade show active" id="desayuno" role="tabpanel" aria-labelledby="desayuno-tab">
                     <!-- breakfast content -->
                     <div class="container">
                         <div class="row">
 
                             <div class="col-sm-4 p-4 border-bottom">
-                                <a href="#">
-                                    <div class="dish d-flex justify-content-between">
-                                        <h4 class="dish__title">salmon</h4>
+                                <div class="dish " data-toggle="modal" data-target="#exampleModalCenter">
+                                    <div class=" dish__header mb-3 d-flex justify-content-between">
+                                        <h4 class="dish__title">Salmon al horno</h4>
                                         <h4 class="dish__price mb-4">$20</h4>
                                     </div>
                                     <p class="dish__description">
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, provident!
                                     </p>
-                                </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 p-4 border-bottom">
+                                <div class="dish " data-toggle="modal" data-target="#exampleModalCenter">
+                                    <div class=" dish__header mb-3 d-flex justify-content-between">
+                                        <h4 class="dish__title">Salmon al horno</h4>
+                                        <h4 class="dish__price mb-4">$20</h4>
+                                    </div>
+                                    <p class="dish__description">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, provident!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 p-4 border-bottom">
+                                <div class="dish " data-toggle="modal" data-target="#exampleModalCenter">
+                                    <div class=" dish__header mb-3 d-flex justify-content-between">
+                                        <h4 class="dish__title">Salmon al horno</h4>
+                                        <h4 class="dish__price mb-4">$20</h4>
+                                    </div>
+                                    <p class="dish__description">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, provident!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 p-4 border-bottom">
+                                <div class="dish " data-toggle="modal" data-target="#exampleModalCenter">
+                                    <div class=" dish__header mb-3 d-flex justify-content-between">
+                                        <h4 class="dish__title">Salmon al horno</h4>
+                                        <h4 class="dish__price mb-4">$20</h4>
+                                    </div>
+                                    <p class="dish__description">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, provident!
+                                    </p>
+                                </div>
                             </div>
 
-                            <div class="col-sm-4 p-4 border-bottom">
-                                <div class="dish d-flex justify-content-between">
-                                    <h4 class="dish__title">salmon</h4>
-                                    <h4 class="dish__price mb-4">$20</h4>
-                                </div>
-                                <p class="dish__description">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, provident!
-                                </p>
-                            </div>
-                            <div class="col-sm-4 p-4 border-bottom">
-                                <div class="dish d-flex justify-content-between">
-                                    <h4 class="dish__title">salmon</h4>
-                                    <h4 class="dish__price mb-4">$20</h4>
-                                </div>
-                                <p class="dish__description">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, provident!
-                                </p>
-                            </div>
-                            <div class="col-sm-4 p-4 border-bottom">
-                                <div class="dish d-flex justify-content-between">
-                                    <h4 class="dish__title">salmon</h4>
-                                    <h4 class="dish__price mb-4">$20</h4>
-                                </div>
-                                <p class="dish__description">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, provident!
-                                </p>
-                            </div>
+
                             <!-- end of row -->
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                <div class="tab-pane fade" id="almuerzo" role="tabpanel" aria-labelledby="almuerzo-tab">...</div>
+                <div class="tab-pane fade" id="cena" role="tabpanel" aria-labelledby="cena-tab">...</div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="dish-modal">
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Salmon al horno</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident cum, obcaecati natus
+                            impedit aut ut facere voluptatibus velit eveniet placeat quo ipsum aperiam cupiditate iusto
+                            deserunt a, vitae fugit eius!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
