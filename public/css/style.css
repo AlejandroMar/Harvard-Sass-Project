@@ -382,9 +382,24 @@ form div {
 .tab-menu {
   font-size: 2.5rem;
   background-color: #eee;
-  color: #000 !important; }
+  color: #000 !important;
+  transition: all 0.3s;
+  border: none !important; }
   .tab-menu:hover {
     background-color: #dddddd; }
+
+.modal-content {
+  padding: 3rem; }
+
+.modal-title {
+  font-size: 2rem; }
+
+.modal-close {
+  font-size: 3rem; }
+
+.modal-body {
+  font-size: 1.5rem;
+  color: #333; }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -3975,7 +3990,7 @@ input[type="button"].btn-block {
   font-weight: 700; }
 
 .alert-dismissible {
-  padding-right: 4rem; }
+  padding-right: 5.5rem; }
   .alert-dismissible .close {
     position: absolute;
     top: 0;
@@ -4325,7 +4340,7 @@ input[type="button"].btn-block {
 
 .close {
   float: right;
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1;
   color: #000;
