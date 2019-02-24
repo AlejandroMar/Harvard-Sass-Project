@@ -50,7 +50,7 @@ $aboutAndAddressMargin: 5rem;
 
       top: -10rem;
       left: 5%;
-      box-shadow: 0.7rem 0.9rem 10rem rgba($color-black, 0.5);
+      box-shadow: $box-shadow;
       border-radius: 5px;
     }
   }

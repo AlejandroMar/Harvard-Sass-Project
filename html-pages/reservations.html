@@ -14,8 +14,92 @@
 
 <body>
 
-    <h1>hello</h1>
+    <section class="reservations">
+        <div class="container">
+            <div class="title-comp text-center">
+                <h3 class="title-comp__text-h3">reservations</h3>
+                <h2 class="title-comp__text-h2">- Book a table -</h2>
+                <p class="title-comp__text-paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
 
+            <!-- Form's body -->
+            <div class="reservations-form">
+                <form action="#" method="post" class="reservations-form__body">
+                    <!-- Name Field -->
+                    <div>
+                        <label for="name">Name</label>
+                        <input class="form__input" type="text" id="name" name="User_name"
+                            placeholder="Enter your name...">
+                    </div>
+
+                    <!--Email Field-->
+                    <div>
+                        <label for="mail">Email Adress</label>
+                        <input class="form__input" type="mail" id="mail" name="User_mail"
+                            placeholder="Enter your email adress...">
+                    </div>
+
+                    <!-- Phone Field -->
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input class="form__input" type="tel" id="phone" name="User_phone"
+                            placeholder="Type your phone...">
+                    </div>
+                    <div>
+                        <label for="msg">Message</label>
+                        <textarea class="form__input form__input--msg" name="user_message" id="msg" cols="30" rows="5"
+                            placeholder="add any comment you think is necesary"></textarea>
+                    </div>
+                    <!-- Smoke area -->
+                    <div class="smoke-area">
+                        <label for="smoke-area">Smoke area?</label>
+                        <select class="form__input form__input--smoke" name="somke-area" id="smoke-area">
+                            <option value="" disabled selected>Select your option...</option>
+                            <option value="no">No</option>
+                            <option value="yes">Yes</option>
+                        </select>
+                    </div>
+
+                    <!-- Number of guests -->
+                    <div class="guests-number">
+                        <label for="guests-number">Number of guests</label>
+                        <select class="form__input form__input--guests" name="guests-number" id="guests-number">
+                            <option value="" disabled selected>Select your option...</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select>
+                    </div>
+
+                    <div class="date-time-group">
+                        <!--reservation's Date -->
+                        <div class="form__date">
+                            <label for="date">Date</label>
+                            <input class="form__input form__input--date" id="date" type="date">
+                        </div>
+
+                        <!-- reservation's Time -->
+                        <div class="form__time">
+                            <label class="form__label form__label--time" for="time">Time</label>
+                            <input class="form__input form__input--time" id="time" type="time">
+                        </div>
+                    </div>
+
+                    <!--  Submit button -->
+                    <div class="btn-container">
+                        <button class="btn btn-primary" type="submit">Book a table</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -27,10 +111,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-
-
     <script src="public/js/index.js"></script>
-
 
 </body>
 
