@@ -27,34 +27,44 @@
             <div class="reservations-form">
                 <form action="#" method="post" class="reservations-form__body">
                     <!-- Name Field -->
-                    <div>
+
+                    <div class="form-group">
                         <label for="name">Name</label>
-                        <input class="form__input" type="text" id="name" name="User_name"
+                        <input type="text" class="form-control" id="name" name="user_name"
                             placeholder="Enter your name...">
                     </div>
 
+
                     <!--Email Field-->
-                    <div>
-                        <label for="mail">Email Adress</label>
-                        <input class="form__input" type="mail" id="mail" name="User_mail"
-                            placeholder="Enter your email adress...">
+
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                            placeholder="Enter email..." name="user_email">
                     </div>
 
                     <!-- Phone Field -->
-                    <div>
+
+                    <div class="form-group">
                         <label for="phone">Phone</label>
-                        <input class="form__input" type="tel" id="phone" name="User_phone"
-                            placeholder="Type your phone...">
+                        <input type="tel" class="form-control" id="phone" name="user_phone"
+                            placeholder="Enter your phone...">
                     </div>
-                    <div>
-                        <label for="msg">Message</label>
-                        <textarea class="form__input form__input--msg" name="user_message" id="msg" cols="30" rows="5"
+
+                    <!-- message -->
+                    <div class="form-group">
+                        <label for="msg">Message my</label>
+                        <textarea class="form-control form-textarea" id="msg" rows="5" name="user_message"
                             placeholder="add any comment you think is necesary"></textarea>
                     </div>
+
+
+
                     <!-- Smoke area -->
-                    <div class="smoke-area">
+
+                    <div class="form-group">
                         <label for="smoke-area">Smoke area?</label>
-                        <select class="form__input form__input--smoke" name="somke-area" id="smoke-area">
+                        <select class="form-control" id="smoke-area">
                             <option value="" disabled selected>Select your option...</option>
                             <option value="no">No</option>
                             <option value="yes">Yes</option>
@@ -62,9 +72,10 @@
                     </div>
 
                     <!-- Number of guests -->
-                    <div class="guests-number">
+
+                    <div class="form-group">
                         <label for="guests-number">Number of guests</label>
-                        <select class="form__input form__input--guests" name="guests-number" id="guests-number">
+                        <select class="form-control" id="guests-number">
                             <option value="" disabled selected>Select your option...</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -78,22 +89,25 @@
                         </select>
                     </div>
 
-                    <div class="date-time-group">
-                        <!--reservation's Date -->
-                        <div class="form__date">
-                            <label for="date">Date</label>
-                            <input class="form__input form__input--date" id="date" type="date">
-                        </div>
 
-                        <!-- reservation's Time -->
-                        <div class="form__time">
-                            <label class="form__label form__label--time" for="time">Time</label>
-                            <input class="form__input form__input--time" id="time" type="time">
+                    <!-- date and time -->
+                    <div class="row mt-0">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="date">Date</label>
+                                <input type="date" class="form-control" id="date" name="date">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="time">Date</label>
+                                <input type="time" class="form-control" id="time" name="time">
+                            </div>
                         </div>
                     </div>
 
                     <!--  Submit button -->
-                    <div class="btn-container">
+                    <div class="container text-center mb-5">
                         <button class="btn btn-primary" type="submit">Book a table</button>
                     </div>
                 </form>

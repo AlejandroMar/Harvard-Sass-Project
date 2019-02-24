@@ -1,0 +1,51 @@
+label {
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+form div {
+  margin-top: 3rem;
+}
+
+.form-control {
+  border: none !important;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.575) !important;
+  margin-top: 1.5rem;
+
+  &::placeholder {
+    color: rgb(178, 178, 178) !important;
+    font-style: italic;
+    font-size: 1.2rem;
+
+    // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526.
+    opacity: 1;
+  }
+}
+
+textarea.form-control {
+  border: 1px solid rgba(151, 151, 151, 0.575) !important;
+}
+
+select.form-control {
+  color: rgb(178, 178, 178) !important;
+  font-style: italic;
+  font-size: 1.2rem;
+  &:focus::-ms-value {
+    // Suppress the nested default white text on blue background highlight given to
+    // the selected option text when the (still closed) <select> receives focus
+    // in IE and (under certain conditions) Edge, as it looks bad and cannot be made to
+    // match the appearance of the native widget.
+    // See https://github.com/twbs/bootstrap/issues/19398.
+    color: rgb(178, 178, 178) !important;
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+}
+
+input[type="date"],
+input[type="time"] {
+  color: rgb(178, 178, 178) !important;
+  font-style: italic;
+  font-size: 1.5rem;
+}

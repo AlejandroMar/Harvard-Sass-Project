@@ -189,6 +189,42 @@ html {
 .menu-btn-comp {
   margin: 10rem 0; }
 
+label {
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 1.5rem; }
+
+form div {
+  margin-top: 3rem; }
+
+.form-control {
+  border: none !important;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.575) !important;
+  margin-top: 1.5rem; }
+  .form-control::placeholder {
+    color: #b2b2b2 !important;
+    font-style: italic;
+    font-size: 1.2rem;
+    opacity: 1; }
+
+textarea.form-control {
+  border: 1px solid rgba(151, 151, 151, 0.575) !important; }
+
+select.form-control {
+  color: #b2b2b2 !important;
+  font-style: italic;
+  font-size: 1.2rem; }
+  select.form-control:focus::-ms-value {
+    color: #b2b2b2 !important;
+    font-style: italic;
+    font-size: 1.2rem; }
+
+input[type="date"],
+input[type="time"] {
+  color: #b2b2b2 !important;
+  font-style: italic;
+  font-size: 1.5rem; }
+
 .header {
   height: 100vh;
   position: relative;
@@ -273,75 +309,98 @@ html {
 .reviews {
   margin-bottom: 10rem; }
 
+/* $aboutAndAddressMargin: 5rem;
+
 .footer {
-  background-color: #333;
+  background-color: $color-grey-dark-3;
   height: 50vh;
-  padding: 5rem 0 2rem 0; }
-  .footer__about {
-    color: #fff;
+  padding: 5rem 0 2rem 0;
+
+  &__about {
+    color: $color-white;
     font-size: 1.6rem;
-    margin-top: 5rem;
-    letter-spacing: 2px; }
-    .footer__about > h3 {
-      color: #22a963;
-      font-weight: 300; }
-    .footer__about > p {
+    margin-top: $aboutAndAddressMargin;
+    letter-spacing: 2px;
+
+    > h3 {
+      color: $color-primary;
       font-weight: 300;
-      letter-spacing: 2px; }
-  .footer__media-icons {
-    width: 50%; }
-  .footer__address {
-    color: #fff;
+    }
+
+    > p {
+      font-weight: 300;
+      letter-spacing: 2px;
+    }
+  }
+
+  &__media-icons {
+    width: 50%;
+  }
+  &__address {
+    color: $color-white;
     font-size: 1.6rem;
     font-weight: 300;
-    margin-top: 5rem;
-    letter-spacing: 2px; }
-    .footer__address .address-color {
-      color: #22a963; }
-  .footer__form {
+    margin-top: $aboutAndAddressMargin;
+    letter-spacing: 2px;
+
+    .address-color {
+      color: $color-primary;
+    }
+  }
+
+  &__form {
     position: relative;
     top: 0;
-    width: 100%; }
-    .footer__form__body {
+    width: 100%;
+
+    &__body {
       position: absolute;
-      background-color: #eee;
+      background-color: $color-grey-light-2;
       padding: 3rem;
       width: 90%;
+
       top: -10rem;
       left: 5%;
-      box-shadow: 0.7rem 0.9rem 10rem rgba(0, 0, 0, 0.5);
-      border-radius: 5px; }
+      box-shadow: $box-shadow;
+      border-radius: 5px;
+    }
+  }
+}
 
 label {
   display: block;
-  font-size: 1.5rem; }
-
+  font-size: 1.5rem;
+}
 form div {
-  margin-top: 3rem; }
+  margin-top: 3rem;
+}
 
 .form__input {
   padding: 0.5rem;
   margin-top: 1.5rem;
   width: 100%;
   border: none;
-  border-bottom: 1px solid rgba(151, 151, 151, 0.575); }
-
+  border-bottom: 1px solid rgba(151, 151, 151, 0.575);
+}
 .form__input::-moz-placeholder {
-  color: #b2b2b2;
+  color: rgb(178, 178, 178);
   font-style: italic;
-  font-size: 1.2rem; }
-
+  font-size: 1.2rem;
+}
 .form__input::-webkit-input-placeholder {
-  color: #b2b2b2;
+  color: rgb(178, 178, 178);
   font-style: italic;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+}
 
 .form__input--msg {
-  border: 1px solid rgba(151, 151, 151, 0.575); }
+  border: 1px solid rgba(151, 151, 151, 0.575);
+}
 
 .end__item--form {
-  border: 3px solid antiquewhite; }
-
+  border: 3px solid antiquewhite;
+}
+ */
 .map {
   margin-bottom: 1rem;
   padding: 3rem;
@@ -419,62 +478,73 @@ form div {
 .star-comp .star-checked {
   color: orange; }
 
-.reservations {
+/* .reservations {
   position: relative;
-  height: 200vh; }
-  .reservations-form {
+
+  height: 200vh;
+
+  &-form {
     border: 2px solid black;
-    box-shadow: 0.7rem 0.9rem 10rem rgba(0, 0, 0, 0.5);
-    background-color: #eee;
-    padding: 4rem; }
+    box-shadow: $box-shadow;
+    background-color: $color-grey-light-2;
+    padding: 4rem;
+  }
+}
 
 label {
-  display: block; }
-
+  display: block;
+}
 form div {
-  margin-top: 3rem; }
+  margin-top: 3rem;
+}
 
 .form__input {
   padding: 0.5rem;
   margin-top: 3rem;
   width: 100%;
   border: none;
-  border-bottom: 1px solid rgba(151, 151, 151, 0.575); }
-
+  border-bottom: 1px solid rgba(151, 151, 151, 0.575);
+}
 .form__input::-webkit-input-placeholder {
   font-style: italic;
-  color: #b2b2b2; }
+  color: rgb(178, 178, 178);
+}
 
 .form__input--msg {
-  border: 1px solid rgba(151, 151, 151, 0.575); }
+  border: 1px solid rgba(151, 151, 151, 0.575);
+}
 
 .form__input--smoke,
 .form__input--guests {
   border: 1px solid rgba(151, 151, 151, 0.575);
-  height: 40px; }
+  height: 40px;
+}
 
 .form__date,
 .form__time {
   float: left;
-  width: 50%; }
+  width: 50%;
+}
 
 .form__input--time,
 .form__input--date {
   border: 1px solid rgba(151, 151, 151, 0.575);
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
 .date-time-group:after {
   content: "";
   display: table;
-  clear: both; }
+  clear: both;
+}
 
 .btn-container {
   clear: both;
   text-align: center;
   margin-top: 30px;
   padding: 25px;
-  border-top: 1px solid rgba(192, 192, 192, 0.575); }
-
+  border-top: 1px solid rgba(192, 192, 192, 0.575);
+}
 .btn--reservation {
   font-size: 17px;
   border-radius: 10px;
@@ -484,8 +554,9 @@ form div {
   width: 100%;
   margin: 0 auto;
   background-color: #57b63a;
-  color: white; }
-
+  color: white;
+}
+ */
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -1778,7 +1849,7 @@ pre {
   display: block;
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
-  padding: 0.375rem 2rem;
+  padding: 0.375rem 0.5rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -1955,8 +2026,8 @@ textarea.form-control {
 
 .was-validated .custom-select:valid, .custom-select.is-valid {
   border-color: #28a745;
-  padding-right: calc((1em + 0.75rem) * 3 / 4 + 3rem);
-  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 2rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") #fff no-repeat center right 3rem/calc(0.75em + 0.375rem) calc(0.75em + 0.375rem); }
+  padding-right: calc((1em + 0.75rem) * 3 / 4 + 1.5rem);
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.5rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") #fff no-repeat center right 1.5rem/calc(0.75em + 0.375rem) calc(0.75em + 0.375rem); }
   .was-validated .custom-select:valid:focus, .custom-select.is-valid:focus {
     border-color: #28a745;
     box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25); }
@@ -2052,8 +2123,8 @@ textarea.form-control {
 
 .was-validated .custom-select:invalid, .custom-select.is-invalid {
   border-color: #ff4136;
-  padding-right: calc((1em + 0.75rem) * 3 / 4 + 3rem);
-  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 2rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff4136' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23ff4136' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") #fff no-repeat center right 3rem/calc(0.75em + 0.375rem) calc(0.75em + 0.375rem); }
+  padding-right: calc((1em + 0.75rem) * 3 / 4 + 1.5rem);
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.5rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff4136' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23ff4136' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") #fff no-repeat center right 1.5rem/calc(0.75em + 0.375rem) calc(0.75em + 0.375rem); }
   .was-validated .custom-select:invalid:focus, .custom-select.is-invalid:focus {
     border-color: #ff4136;
     box-shadow: 0 0 0 0.2rem rgba(255, 65, 54, 0.25); }
@@ -2961,7 +3032,7 @@ input[type="button"].btn-block {
 .input-group-text {
   display: flex;
   align-items: center;
-  padding: 0.375rem 2rem;
+  padding: 0.375rem 0.5rem;
   margin-bottom: 0;
   font-size: 1rem;
   font-weight: 400;
@@ -3008,7 +3079,7 @@ input[type="button"].btn-block {
 
 .input-group-lg > .custom-select,
 .input-group-sm > .custom-select {
-  padding-right: 3rem; }
+  padding-right: 1.5rem; }
 
 .input-group > .input-group-prepend > .btn,
 .input-group > .input-group-prepend > .input-group-text,
@@ -3140,13 +3211,13 @@ input[type="button"].btn-block {
   display: inline-block;
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
-  padding: 0.375rem 3rem 0.375rem 2rem;
+  padding: 0.375rem 1.5rem 0.375rem 0.5rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
   vertical-align: middle;
-  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 2rem center/8px 10px;
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.5rem center/8px 10px;
   background-color: #fff;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
@@ -3160,7 +3231,7 @@ input[type="button"].btn-block {
       background-color: #fff; }
   .custom-select[multiple], .custom-select[size]:not([size="1"]) {
     height: auto;
-    padding-right: 2rem;
+    padding-right: 0.5rem;
     background-image: none; }
   .custom-select:disabled {
     color: #6c757d;
@@ -3213,7 +3284,7 @@ input[type="button"].btn-block {
   left: 0;
   z-index: 1;
   height: calc(1.5em + 0.75rem + 2px);
-  padding: 0.375rem 2rem;
+  padding: 0.375rem 0.5rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -3228,7 +3299,7 @@ input[type="button"].btn-block {
     z-index: 3;
     display: block;
     height: calc(1.5em + 0.75rem);
-    padding: 0.375rem 2rem;
+    padding: 0.375rem 0.5rem;
     line-height: 1.5;
     color: #495057;
     content: "Browse";
