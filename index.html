@@ -323,27 +323,32 @@
                     <div class="footer__form__body">
                         <form action="#" method="post" class="">
                             <!-- Name Field -->
-                            <div>
+                            <div class="form-group">
                                 <label for="name">Name</label>
-                                <input class="form__input" type="text" id="name" name="User_name"
+                                <input type="text" class="form-control" id="name" name="user_name"
                                     placeholder="Enter your name...">
                             </div>
                             <!--Email Field-->
-                            <div>
-                                <label for="mail">Email Adress</label>
-                                <input class="form__input" type="mail" id="mail" name="User_mail"
-                                    placeholder="Enter your email adress...">
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                    placeholder="Enter email..." name="user_email">
                             </div>
                             <!-- Phone Field -->
-                            <div>
+                            <div class="form-group">
                                 <label for="phone">Phone</label>
-                                <input class="form__input" type="tel" id="phone" name="User_phone"
-                                    placeholder="Type your phone...">
+                                <input type="tel" class="form-control" id="phone" name="user_phone"
+                                    placeholder="Enter your phone...">
                             </div>
-                            <div>
-                                <label for="msg">Message</label>
-                                <textarea class="form__input form__input--msg" name="user_message" id="msg" cols="30"
-                                    rows="5" placeholder="add any comment you think is necesary"></textarea>
+                            <div class="form-group">
+                                <label for="msg">Message my</label>
+                                <textarea class="form-control form-textarea" id="msg" rows="5" name="user_message"
+                                    placeholder="add any comment you think is necesary"></textarea>
+                            </div>
+                            <div class="container text-right">
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="far fa-paper-plane"></i>
+                                </button>
                             </div>
                         </form>
                     </div>
