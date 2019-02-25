@@ -1,79 +1,14 @@
-/* .reservations {
+.reservations {
   position: relative;
 
-  height: 200vh;
+  &__title {
+    height: 30vh;
+  }
 
-  &-form {
+  &__form {
     border: 2px solid black;
     box-shadow: $box-shadow;
     background-color: $color-grey-light-2;
     padding: 4rem;
   }
 }
-
-label {
-  display: block;
-}
-form div {
-  margin-top: 3rem;
-}
-
-.form__input {
-  padding: 0.5rem;
-  margin-top: 3rem;
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid rgba(151, 151, 151, 0.575);
-}
-.form__input::-webkit-input-placeholder {
-  font-style: italic;
-  color: rgb(178, 178, 178);
-}
-
-.form__input--msg {
-  border: 1px solid rgba(151, 151, 151, 0.575);
-}
-
-.form__input--smoke,
-.form__input--guests {
-  border: 1px solid rgba(151, 151, 151, 0.575);
-  height: 40px;
-}
-
-.form__date,
-.form__time {
-  float: left;
-  width: 50%;
-}
-
-.form__input--time,
-.form__input--date {
-  border: 1px solid rgba(151, 151, 151, 0.575);
-  margin-top: 20px;
-}
-
-.date-time-group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.btn-container {
-  clear: both;
-  text-align: center;
-  margin-top: 30px;
-  padding: 25px;
-  border-top: 1px solid rgba(192, 192, 192, 0.575);
-}
-.btn--reservation {
-  font-size: 17px;
-  border-radius: 10px;
-  padding: 14px;
-  border: none;
-  clear: both;
-  width: 100%;
-  margin: 0 auto;
-  background-color: #57b63a;
-  color: white;
-}
- */

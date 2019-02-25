@@ -426,85 +426,16 @@ input[type="time"] {
 .star-comp .star-checked {
   color: orange; }
 
-/* .reservations {
-  position: relative;
-
-  height: 200vh;
-
-  &-form {
+.reservations {
+  position: relative; }
+  .reservations__title {
+    height: 30vh; }
+  .reservations__form {
     border: 2px solid black;
-    box-shadow: $box-shadow;
-    background-color: $color-grey-light-2;
-    padding: 4rem;
-  }
-}
+    box-shadow: 0.7rem 0.9rem 10rem rgba(0, 0, 0, 0.5);
+    background-color: #eee;
+    padding: 4rem; }
 
-label {
-  display: block;
-}
-form div {
-  margin-top: 3rem;
-}
-
-.form__input {
-  padding: 0.5rem;
-  margin-top: 3rem;
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid rgba(151, 151, 151, 0.575);
-}
-.form__input::-webkit-input-placeholder {
-  font-style: italic;
-  color: rgb(178, 178, 178);
-}
-
-.form__input--msg {
-  border: 1px solid rgba(151, 151, 151, 0.575);
-}
-
-.form__input--smoke,
-.form__input--guests {
-  border: 1px solid rgba(151, 151, 151, 0.575);
-  height: 40px;
-}
-
-.form__date,
-.form__time {
-  float: left;
-  width: 50%;
-}
-
-.form__input--time,
-.form__input--date {
-  border: 1px solid rgba(151, 151, 151, 0.575);
-  margin-top: 20px;
-}
-
-.date-time-group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.btn-container {
-  clear: both;
-  text-align: center;
-  margin-top: 30px;
-  padding: 25px;
-  border-top: 1px solid rgba(192, 192, 192, 0.575);
-}
-.btn--reservation {
-  font-size: 17px;
-  border-radius: 10px;
-  padding: 14px;
-  border: none;
-  clear: both;
-  width: 100%;
-  margin: 0 auto;
-  background-color: #57b63a;
-  color: white;
-}
- */
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
