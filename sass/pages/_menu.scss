@@ -39,12 +39,13 @@
 .tab-menu {
   font-size: 2.5rem;
   background-color: $color-grey-light-2;
-  color: $color-black !important;
+  color: $color-black;
   transition: all 0.3s;
-  border: none !important;
+  border: none;
 
   &:hover {
     background-color: $nav-tabs-link-hover-bg;
+    color: $color-black;
   }
 }
 

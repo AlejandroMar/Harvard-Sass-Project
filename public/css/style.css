@@ -1,441 +1,3 @@
-html {
-  font-size: 62.5%; }
-
-.navigation {
-  border-bottom: 2px solid #333; }
-  .navigation .nav {
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: 300; }
-    .navigation .nav-link {
-      color: #fff; }
-      .navigation .nav-link:link {
-        color: #fff; }
-      .navigation .nav-link:visited {
-        color: #fff; }
-      .navigation .nav-link:hover {
-        color: #fff; }
-  .navigation__logo {
-    color: #fff;
-    text-transform: uppercase; }
-
-.custom-btn {
-  background-color: #22a963;
-  border-color: transparent;
-  text-transform: uppercase;
-  letter-spacing: 1px; }
-
-.motives {
-  /* hover text */ }
-  .motives .motives__img-1, .motives .motives__img-2, .motives .motives__img-3, .motives .motives__img-4, .motives .specialties__img-1, .motives .specialties__img-2, .motives .specialties__img-3, .motives .specialties__img-4 {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    position: relative;
-    cursor: pointer;
-    transition: all 0.3s; }
-  .motives__img-1 > img {
-    width: 100%;
-    transition: all 0.3s; }
-  .motives__img-1:hover > .motives__hovertext {
-    visibility: visible;
-    opacity: 1; }
-  .motives__img-1:hover > img {
-    filter: brightness(50%); }
-  .motives__img-2 > img {
-    width: 100%;
-    transition: all 0.3s; }
-  .motives__img-2:hover > .motives__hovertext {
-    visibility: visible;
-    opacity: 1; }
-  .motives__img-2:hover > img {
-    filter: brightness(50%); }
-  .motives__img-3 > img {
-    width: 100%;
-    transition: all 0.3s; }
-  .motives__img-3:hover > .motives__hovertext {
-    visibility: visible;
-    opacity: 1; }
-  .motives__img-3:hover > img {
-    filter: brightness(50%); }
-  .motives__img-4 > img {
-    width: 100%;
-    transition: all 0.3s; }
-  .motives__img-4:hover > .motives__hovertext {
-    visibility: visible;
-    opacity: 1; }
-  .motives__img-4:hover > img {
-    filter: brightness(50%); }
-  .motives__hovertext {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translatex(-50%);
-    color: #fff;
-    text-align: center;
-    opacity: 0;
-    transition: all 0.4s;
-    text-shadow: 12rem 1.5rem 4rem rgba(0, 0, 0, 0.5);
-    visibility: hidden; }
-    .motives__hovertext-h3 {
-      font-size: 2.5rem;
-      text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
-    .motives__hovertext-h2 {
-      font-size: 3rem;
-      text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
-
-.card {
-  margin: 0;
-  overflow: hidden;
-  box-shadow: 0.6rem 0.8rem 6rem rgba(0, 0, 0, 0.5);
-  position: absolute;
-  transition: all 0.2s; }
-  .card-body {
-    padding: 1rem !important; }
-  .card-title {
-    font-size: 2rem;
-    margin-top: 0.5rem !important; }
-  .card-text {
-    font-size: 1.5rem;
-    color: #777;
-    margin-bottom: 0.5rem !important; }
-  .card:hover {
-    box-shadow: 0.7rem 0.9rem 10rem rgba(0, 0, 0, 0.5);
-    transform: translateY(-10px); }
-
-.specialties .motives__img-1, .specialties .motives__img-2, .specialties .motives__img-3, .specialties .motives__img-4, .specialties .specialties__img-1, .specialties .specialties__img-2, .specialties .specialties__img-3, .specialties .specialties__img-4 {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-  position: relative;
-  cursor: pointer;
-  transition: all 0.3s; }
-
-.specialties__img-1 > img {
-  width: 100%;
-  transition: all 0.3s; }
-
-.specialties__img-1:hover > .specialties__hovertext {
-  visibility: visible;
-  opacity: 1; }
-
-.specialties__img-1:hover > img {
-  filter: brightness(50%); }
-
-.specialties__img-2 > img {
-  width: 100%;
-  transition: all 0.3s; }
-
-.specialties__img-2:hover > .specialties__hovertext {
-  visibility: visible;
-  opacity: 1; }
-
-.specialties__img-2:hover > img {
-  filter: brightness(50%); }
-
-.specialties__img-3 > img {
-  width: 100%;
-  transition: all 0.3s; }
-
-.specialties__img-3:hover > .specialties__hovertext {
-  visibility: visible;
-  opacity: 1; }
-
-.specialties__img-3:hover > img {
-  filter: brightness(50%); }
-
-.specialties__img-4 > img {
-  width: 100%;
-  transition: all 0.3s; }
-
-.specialties__img-4:hover > .specialties__hovertext {
-  visibility: visible;
-  opacity: 1; }
-
-.specialties__img-4:hover > img {
-  filter: brightness(50%); }
-
-.specialties__hovertext {
-  position: absolute;
-  border: 2px #fff solid;
-  width: 90%;
-  height: 90%;
-  top: 5%;
-  left: 5%;
-  background-color: rgba(255, 119, 48, 0.1);
-  color: #fff;
-  text-align: center;
-  opacity: 0;
-  transition: all 0.4s;
-  text-shadow: 12rem 1.5rem 4rem rgba(0, 0, 0, 0.5);
-  visibility: hidden; }
-  .specialties__hovertext-h3 {
-    margin-top: 25%;
-    font-size: 2rem;
-    text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
-  .specialties__hovertext-h2 {
-    font-size: 2.5rem;
-    text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
-
-.title-comp__text-h2 {
-  font-size: 5rem; }
-
-.title-comp__text-h3 {
-  font-size: 2rem; }
-
-.title-comp__text-paragraph {
-  font-size: 1.6rem;
-  color: #777; }
-
-.menu-btn-comp {
-  margin: 10rem 0; }
-
-label {
-  display: block;
-  font-size: 1.5rem;
-  margin-top: 1.5rem; }
-
-form div {
-  margin-top: 3rem; }
-
-.form-control {
-  border: none !important;
-  border-bottom: 1px solid rgba(151, 151, 151, 0.575) !important;
-  margin-top: 1.5rem; }
-  .form-control::placeholder {
-    color: #b2b2b2 !important;
-    font-style: italic;
-    font-size: 1.2rem;
-    opacity: 1; }
-
-textarea.form-control {
-  border: 1px solid rgba(151, 151, 151, 0.575) !important; }
-
-select.form-control {
-  color: #b2b2b2 !important;
-  font-style: italic;
-  font-size: 1.2rem; }
-  select.form-control:focus::-ms-value {
-    color: #b2b2b2 !important;
-    font-style: italic;
-    font-size: 1.2rem; }
-
-input[type="date"],
-input[type="time"] {
-  color: #b2b2b2 !important;
-  font-style: italic;
-  font-size: 1.5rem; }
-
-.header {
-  height: 100vh;
-  position: relative;
-  background-image: url("../img/hero-2.jpg");
-  background-position: fixed;
-  background-size: cover;
-  background-attachment: fixed; }
-  .header .hero {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    color: #fff; }
-    .header .hero__titile {
-      letter-spacing: 2px; }
-      .header .hero__titile-sub {
-        font-size: 2.5rem;
-        text-transform: capitalize; }
-      .header .hero__titile-main {
-        font-size: 6rem;
-        text-transform: uppercase;
-        margin-bottom: 2.5rem; }
-    .header .hero__paragraph {
-      text-align: center;
-      font-size: 2.5rem;
-      font-style: italic;
-      letter-spacing: 2px; }
-    .header .hero__arrow {
-      font-size: 3.2rem;
-      display: block;
-      margin-top: 10%; }
-
-.about-us__text {
-  padding: 10rem 5rem !important;
-  border-right: 1px solid #a29f9f;
-  border-left: 1px solid #a29f9f; }
-
-.about-us__title {
-  font-size: 3rem; }
-
-.about-us__sub-title {
-  font-size: 2rem;
-  font-weight: 300; }
-
-.about-us__paragraph {
-  font-size: 1.5rem; }
-
-.about-us__firma {
-  width: 23%;
-  height: 23%;
-  transform: rotateZ(-25deg); }
-
-.about-us__foto {
-  text-align: center;
-  padding-top: 15%;
-  border-right: 1px solid #a29f9f; }
-  .about-us__foto-block {
-    margin: 0 auto; }
-  .about-us__foto-fruit {
-    width: 40%;
-    border-radius: 50%; }
-  .about-us__foto-subhead {
-    font-style: italic; }
-
-.team {
-  margin: 8rem 0 12rem 0; }
-  .team p {
-    margin-bottom: 5rem; }
-
-.message {
-  height: 40rem;
-  background-image: url("../../public/img/healthy-red.jpg");
-  background-size: cover;
-  background-attachment: fixed; }
-
-.specialties {
-  margin-top: 10rem; }
-  .specialties p {
-    margin-bottom: 10rem; }
-
-.reviews {
-  margin-bottom: 10rem; }
-
-.footer {
-  background-color: #333;
-  height: 50vh;
-  padding: 5rem 0 2rem 0; }
-  .footer__about {
-    color: #fff;
-    font-size: 1.6rem;
-    margin-top: 5rem;
-    letter-spacing: 2px; }
-    .footer__about > h3 {
-      color: #22a963;
-      font-weight: 300; }
-    .footer__about > p {
-      font-weight: 300;
-      letter-spacing: 2px; }
-  .footer__media-icons {
-    width: 50%; }
-  .footer__address {
-    color: #fff;
-    font-size: 1.6rem;
-    font-weight: 300;
-    margin-top: 5rem;
-    letter-spacing: 2px; }
-    .footer__address .address-color {
-      color: #22a963; }
-  .footer__form {
-    position: relative;
-    top: 0;
-    width: 100%; }
-    .footer__form__body {
-      position: absolute;
-      background-color: #eee;
-      padding: 3rem;
-      padding-top: 0;
-      width: 90%;
-      top: -10rem;
-      left: 5%;
-      box-shadow: 0.7rem 0.9rem 10rem rgba(0, 0, 0, 0.5);
-      border-radius: 5px; }
-
-.map {
-  margin-bottom: 1rem;
-  padding: 3rem;
-  overflow: hidden; }
-
-#map {
-  width: 100%;
-  height: 400px;
-  background-color: grey; }
-
-.menu {
-  border: 0.5rem solid #d2d2d2;
-  padding: 2rem;
-  box-shadow: 0.7rem 0.9rem 3rem rgba(0, 0, 0, 0.5); }
-  .menu__header {
-    height: 30rem;
-    margin-bottom: 5rem;
-    background-image: url("../img/vegetales.jpeg");
-    background-position: center bottom;
-    background-size: cover;
-    background-attachment: fixed; }
-  .menu__body {
-    width: 80%;
-    margin: 0 auto; }
-  .menu__title {
-    margin-bottom: 5rem;
-    padding-top: 6rem; }
-
-.dish {
-  cursor: pointer;
-  padding: 1.5rem; }
-  .dish__title, .dish__price {
-    font-size: 1.8rem; }
-  .dish__description {
-    font-size: 1.5rem;
-    color: #999; }
-
-.tab-menu {
-  font-size: 2.5rem;
-  background-color: #eee;
-  color: #000 !important;
-  transition: all 0.3s;
-  border: none !important; }
-  .tab-menu:hover {
-    background-color: #dddddd; }
-
-.modal-content {
-  padding: 3rem; }
-
-.modal-title {
-  font-size: 2rem; }
-
-.modal-close {
-  font-size: 3rem; }
-
-.modal-body {
-  font-size: 1.5rem;
-  color: #333; }
-
-.specialties-list__title {
-  font-size: 5rem;
-  font-weight: 300; }
-
-.specialties-list__paragraph {
-  font-size: 1.6rem;
-  color: #777;
-  font-weight: 300; }
-
-.specialties-list__arrow {
-  font-size: 3.2rem; }
-
-.specialties-list .specialties-list__img {
-  width: 100% !important; }
-
-.star-comp .star-checked {
-  color: orange; }
-
-.reservations {
-  position: relative; }
-  .reservations__title {
-    height: 30vh; }
-  .reservations__form {
-    border: 2px solid black;
-    box-shadow: 0.7rem 0.9rem 10rem rgba(0, 0, 0, 0.5);
-    background-color: #eee;
-    padding: 4rem; }
-
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -7457,3 +7019,442 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+
+html {
+  font-size: 62.5%; }
+
+.navigation {
+  border-bottom: 2px solid #333; }
+  .navigation .nav {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 300; }
+    .navigation .nav-link {
+      color: #fff; }
+      .navigation .nav-link:link {
+        color: #fff; }
+      .navigation .nav-link:visited {
+        color: #fff; }
+      .navigation .nav-link:hover {
+        color: #fff; }
+  .navigation__logo {
+    color: #fff;
+    text-transform: uppercase; }
+
+.custom-btn {
+  background-color: #22a963;
+  border-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.motives {
+  /* hover text */ }
+  .motives .motives__img-1, .motives .motives__img-2, .motives .motives__img-3, .motives .motives__img-4, .motives .specialties__img-1, .motives .specialties__img-2, .motives .specialties__img-3, .motives .specialties__img-4 {
+    padding-right: 0;
+    padding-left: 0;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s; }
+  .motives__img-1 > img {
+    width: 100%;
+    transition: all 0.3s; }
+  .motives__img-1:hover > .motives__hovertext {
+    visibility: visible;
+    opacity: 1; }
+  .motives__img-1:hover > img {
+    filter: brightness(50%); }
+  .motives__img-2 > img {
+    width: 100%;
+    transition: all 0.3s; }
+  .motives__img-2:hover > .motives__hovertext {
+    visibility: visible;
+    opacity: 1; }
+  .motives__img-2:hover > img {
+    filter: brightness(50%); }
+  .motives__img-3 > img {
+    width: 100%;
+    transition: all 0.3s; }
+  .motives__img-3:hover > .motives__hovertext {
+    visibility: visible;
+    opacity: 1; }
+  .motives__img-3:hover > img {
+    filter: brightness(50%); }
+  .motives__img-4 > img {
+    width: 100%;
+    transition: all 0.3s; }
+  .motives__img-4:hover > .motives__hovertext {
+    visibility: visible;
+    opacity: 1; }
+  .motives__img-4:hover > img {
+    filter: brightness(50%); }
+  .motives__hovertext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translatex(-50%);
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.4s;
+    text-shadow: 12rem 1.5rem 4rem rgba(0, 0, 0, 0.5);
+    visibility: hidden; }
+    .motives__hovertext-h3 {
+      font-size: 2.5rem;
+      text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
+    .motives__hovertext-h2 {
+      font-size: 3rem;
+      text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
+
+.card {
+  margin: 0;
+  overflow: hidden;
+  box-shadow: 0.6rem 0.8rem 6rem rgba(0, 0, 0, 0.5);
+  transition: all 0.2s; }
+  .card-body {
+    padding: 1rem; }
+  .card-title {
+    font-size: 2rem;
+    margin-top: 0.5rem; }
+  .card-text {
+    font-size: 1.5rem;
+    color: #777;
+    margin-bottom: 0.5rem; }
+  .card:hover {
+    box-shadow: 0.7rem 0.9rem 10rem rgba(0, 0, 0, 0.5);
+    transform: translateY(-10px); }
+
+.specialties .motives__img-1, .specialties .motives__img-2, .specialties .motives__img-3, .specialties .motives__img-4, .specialties .specialties__img-1, .specialties .specialties__img-2, .specialties .specialties__img-3, .specialties .specialties__img-4 {
+  padding-right: 0;
+  padding-left: 0;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s; }
+
+.specialties__img-1 > img {
+  width: 100%;
+  transition: all 0.3s; }
+
+.specialties__img-1:hover > .specialties__hovertext {
+  visibility: visible;
+  opacity: 1; }
+
+.specialties__img-1:hover > img {
+  filter: brightness(50%); }
+
+.specialties__img-2 > img {
+  width: 100%;
+  transition: all 0.3s; }
+
+.specialties__img-2:hover > .specialties__hovertext {
+  visibility: visible;
+  opacity: 1; }
+
+.specialties__img-2:hover > img {
+  filter: brightness(50%); }
+
+.specialties__img-3 > img {
+  width: 100%;
+  transition: all 0.3s; }
+
+.specialties__img-3:hover > .specialties__hovertext {
+  visibility: visible;
+  opacity: 1; }
+
+.specialties__img-3:hover > img {
+  filter: brightness(50%); }
+
+.specialties__img-4 > img {
+  width: 100%;
+  transition: all 0.3s; }
+
+.specialties__img-4:hover > .specialties__hovertext {
+  visibility: visible;
+  opacity: 1; }
+
+.specialties__img-4:hover > img {
+  filter: brightness(50%); }
+
+.specialties__hovertext {
+  position: absolute;
+  border: 2px #fff solid;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+  background-color: rgba(255, 119, 48, 0.1);
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.4s;
+  text-shadow: 12rem 1.5rem 4rem rgba(0, 0, 0, 0.5);
+  visibility: hidden; }
+  .specialties__hovertext-h3 {
+    margin-top: 25%;
+    font-size: 2rem;
+    text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
+  .specialties__hovertext-h2 {
+    font-size: 2.5rem;
+    text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
+
+.title-comp__text-h2 {
+  font-size: 5rem; }
+
+.title-comp__text-h3 {
+  font-size: 2rem; }
+
+.title-comp__text-paragraph {
+  font-size: 1.6rem;
+  color: #777; }
+
+.menu-btn-comp {
+  margin: 10rem 0; }
+
+label {
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 1.5rem; }
+
+form div {
+  margin-top: 3rem; }
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.575);
+  margin-top: 1.5rem; }
+  .form-control::placeholder {
+    color: #b2b2b2;
+    font-style: italic;
+    font-size: 1.2rem;
+    opacity: 1; }
+
+textarea.form-control {
+  border: 1px solid rgba(151, 151, 151, 0.575); }
+
+select.form-control {
+  color: #b2b2b2;
+  font-style: italic;
+  font-size: 1.2rem; }
+  select.form-control:focus::-ms-value {
+    color: #b2b2b2;
+    font-style: italic;
+    font-size: 1.2rem; }
+
+input[type="date"],
+input[type="time"] {
+  color: #b2b2b2;
+  font-style: italic;
+  font-size: 1.5rem; }
+
+.header {
+  height: 100vh;
+  position: relative;
+  background-image: url("../img/hero-2.jpg");
+  background-position: fixed;
+  background-size: cover;
+  background-attachment: fixed; }
+  .header .hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff; }
+    .header .hero__titile {
+      letter-spacing: 2px; }
+      .header .hero__titile-sub {
+        font-size: 2.5rem;
+        text-transform: capitalize; }
+      .header .hero__titile-main {
+        font-size: 6rem;
+        text-transform: uppercase;
+        margin-bottom: 2.5rem; }
+    .header .hero__paragraph {
+      text-align: center;
+      font-size: 2.5rem;
+      font-style: italic;
+      letter-spacing: 2px; }
+    .header .hero__arrow {
+      font-size: 3.2rem;
+      display: block;
+      margin-top: 10%; }
+
+.about-us__text {
+  padding: 10rem 5rem;
+  border-right: 1px solid #a29f9f;
+  border-left: 1px solid #a29f9f; }
+
+.about-us__title {
+  font-size: 3rem; }
+
+.about-us__sub-title {
+  font-size: 2rem;
+  font-weight: 300; }
+
+.about-us__paragraph {
+  font-size: 1.5rem; }
+
+.about-us__firma {
+  width: 23%;
+  height: 23%;
+  transform: rotateZ(-25deg); }
+
+.about-us__foto {
+  text-align: center;
+  padding-top: 15%;
+  border-right: 1px solid #a29f9f; }
+  .about-us__foto-block {
+    margin: 0 auto; }
+  .about-us__foto-fruit {
+    width: 40%;
+    border-radius: 50%; }
+  .about-us__foto-subhead {
+    font-style: italic; }
+
+.team {
+  margin-top: 8rem;
+  margin-bottom: 12rem; }
+  .team p {
+    margin-bottom: 5rem; }
+
+.message {
+  height: 40rem;
+  background-image: url("../../public/img/healthy-red.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+.specialties {
+  margin-top: 10rem; }
+  .specialties p {
+    margin-bottom: 10rem; }
+
+.reviews {
+  margin-bottom: 10rem; }
+
+.footer {
+  background-color: #333;
+  height: 50vh;
+  padding: 5rem 0 2rem 0; }
+  .footer__about {
+    color: #fff;
+    font-size: 1.6rem;
+    margin-top: 5rem;
+    letter-spacing: 2px; }
+    .footer__about > h3 {
+      color: #22a963;
+      font-weight: 300; }
+    .footer__about > p {
+      font-weight: 300;
+      letter-spacing: 2px; }
+  .footer__media-icons {
+    width: 50%; }
+  .footer__address {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 5rem;
+    letter-spacing: 2px; }
+    .footer__address .address-color {
+      color: #22a963; }
+  .footer__form {
+    position: relative;
+    top: 0;
+    width: 100%; }
+    .footer__form__body {
+      position: absolute;
+      background-color: #eee;
+      padding: 3rem;
+      padding-top: 0;
+      width: 90%;
+      top: -10rem;
+      left: 5%;
+      box-shadow: 0.7rem 0.9rem 10rem rgba(0, 0, 0, 0.5);
+      border-radius: 5px; }
+
+.map {
+  margin-bottom: 1rem;
+  padding: 3rem;
+  overflow: hidden; }
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey; }
+
+.menu {
+  border: 0.5rem solid #d2d2d2;
+  padding: 2rem;
+  box-shadow: 0.7rem 0.9rem 3rem rgba(0, 0, 0, 0.5); }
+  .menu__header {
+    height: 30rem;
+    margin-bottom: 5rem;
+    background-image: url("../img/vegetales.jpeg");
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed; }
+  .menu__body {
+    width: 80%;
+    margin: 0 auto; }
+  .menu__title {
+    margin-bottom: 5rem;
+    padding-top: 6rem; }
+
+.dish {
+  cursor: pointer;
+  padding: 1.5rem; }
+  .dish__title, .dish__price {
+    font-size: 1.8rem; }
+  .dish__description {
+    font-size: 1.5rem;
+    color: #999; }
+
+.tab-menu {
+  font-size: 2.5rem;
+  background-color: #eee;
+  color: #000;
+  transition: all 0.3s;
+  border: none; }
+  .tab-menu:hover {
+    background-color: #dddddd;
+    color: #000; }
+
+.modal-content {
+  padding: 3rem; }
+
+.modal-title {
+  font-size: 2rem; }
+
+.modal-close {
+  font-size: 3rem; }
+
+.modal-body {
+  font-size: 1.5rem;
+  color: #333; }
+
+.specialties-list__title {
+  font-size: 5rem;
+  font-weight: 300; }
+
+.specialties-list__paragraph {
+  font-size: 1.6rem;
+  color: #777;
+  font-weight: 300; }
+
+.specialties-list__arrow {
+  font-size: 3.2rem; }
+
+.specialties-list .specialties-list__img {
+  width: 100%; }
+
+.star-comp .star-checked {
+  color: orange; }
+
+.reservations {
+  position: relative; }
+  .reservations__title {
+    height: 30vh; }
+  .reservations__form {
+    border: 2px solid black;
+    box-shadow: 0.7rem 0.9rem 10rem rgba(0, 0, 0, 0.5);
+    background-color: #eee;
+    padding: 4rem; }

@@ -1,9 +1,15 @@
 //import pages
 
+@import "./abstracts/custom-variables";
+
+//bootstrap scss
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//custom mixins
+@import "./abstracts/mixins";
+
+//custom styles
 @import "./pages/home";
 @import "./pages/menu";
 @import "./pages/specialties";
 @import "./pages/reservations";
-
-//bootstrap scss
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
