@@ -1,5 +1,13 @@
 .navigation {
-  border-bottom: 2px solid $color-grey-dark-3;
+  transition: 1s ease;
+  background: transparent;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  &.scrolled {
+    background: $color-grey-dark-3;
+  }
+
   .nav {
     font-size: 1.5rem;
     letter-spacing: 1px;
@@ -23,5 +31,6 @@
   &__logo {
     color: $color-white;
     text-transform: uppercase;
+    transform: translateY(5px);
   }
 }
