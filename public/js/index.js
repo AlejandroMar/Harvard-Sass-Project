@@ -11,4 +11,7 @@ $(document).ready(function() {
       $(".navigation").removeClass("scrolled");
     }
   });
+  $(".navbar").click(function() {
+    $(this).toggleClass("navbar-clicked");
+  });
 });

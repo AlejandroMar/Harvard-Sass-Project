@@ -7,31 +7,38 @@
   &.scrolled {
     background: $color-grey-dark-3;
   }
-
-  .navbar-toggler-icon {
-    font-size: 1.8rem;
-  }
-
-  .nav {
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: 300;
-
-    &-link {
-      color: $color-white;
-      &:link {
-        color: $color-white;
+  .navbar {
+    &-clicked {
+      @include respond(tab-port) {
+        background-color: rgba($color-grey-dark-3, 0.6);
       }
+    }
 
-      &:visited {
+    &-toggler-icon {
+      font-size: 1.8rem;
+    }
+    .nav {
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: 300;
+
+      &-link {
         color: $color-white;
-      }
-      &:hover {
-        color: $color-white;
+        &:link {
+          color: $color-white;
+        }
+
+        &:visited {
+          color: $color-white;
+        }
+        &:hover {
+          color: $color-white;
+        }
       }
     }
   }
+
   &__logo {
     color: $color-white;
     text-transform: uppercase;

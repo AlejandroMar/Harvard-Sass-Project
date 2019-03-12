@@ -7073,20 +7073,23 @@ html {
   padding-bottom: 1rem; }
   .navigation.scrolled {
     background: #333; }
+  @media only screen and (max-width: 56.25em) {
+    .navigation .navbar-clicked {
+      background-color: rgba(51, 51, 51, 0.6); } }
   .navigation .navbar-toggler-icon {
     font-size: 1.8rem; }
-  .navigation .nav {
+  .navigation .navbar .nav {
     font-size: 1.5rem;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 300; }
-    .navigation .nav-link {
+    .navigation .navbar .nav-link {
       color: #fff; }
-      .navigation .nav-link:link {
+      .navigation .navbar .nav-link:link {
         color: #fff; }
-      .navigation .nav-link:visited {
+      .navigation .navbar .nav-link:visited {
         color: #fff; }
-      .navigation .nav-link:hover {
+      .navigation .navbar .nav-link:hover {
         color: #fff; }
   .navigation__logo {
     color: #fff;
