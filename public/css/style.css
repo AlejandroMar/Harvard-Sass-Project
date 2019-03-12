@@ -7339,7 +7339,6 @@ input[type="time"] {
 
 .footer {
   background-color: #333;
-  height: 50vh;
   padding: 5rem 0 2rem 0; }
   .footer__about {
     color: #fff;
@@ -7363,17 +7362,11 @@ input[type="time"] {
     .footer__address .address-color {
       color: #22a963; }
   .footer__form {
-    position: relative;
-    top: 0;
-    width: 100%; }
+    margin-top: -11rem; }
     .footer__form__body {
-      position: absolute;
       background-color: #eee;
       padding: 3rem;
-      padding-top: 0;
       width: 90%;
-      top: -10rem;
-      left: 5%;
       box-shadow: 0.7rem 0.9rem 10rem rgba(0, 0, 0, 0.5);
       border-radius: 5px; }
 
