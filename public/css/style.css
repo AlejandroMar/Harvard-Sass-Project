@@ -7056,15 +7056,18 @@ ORDER: Base + typography > general layout + grid > page layout > components
 */
 html {
   font-size: 62.5%; }
-  @media only screen and (max-width: 75em) {
-    html {
-      font-size: 56.25%; } }
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 35.99em) {
     html {
       font-size: 50%; } }
-  @media only screen and (min-width: 112.5em) {
+  @media only screen and (min-width: 36em) {
     html {
-      font-size: 75%; } }
+      font-size: 56.25%; } }
+  @media only screen and (min-width: 48em) {
+    html {
+      font-size: 62.5%; } }
+  @media only screen and (min-width: 74.93em) {
+    html {
+      font-size: 68.75%; } }
 
 .navigation {
   transition: 1s ease;
@@ -7073,9 +7076,6 @@ html {
   padding-bottom: 1rem; }
   .navigation.scrolled {
     background: #333; }
-  @media only screen and (max-width: 56.25em) {
-    .navigation .navbar-clicked {
-      background-color: rgba(51, 51, 51, 0.6); } }
   .navigation .navbar-toggler-icon {
     font-size: 1.8rem; }
   .navigation .navbar .nav {
@@ -7333,6 +7333,75 @@ input[type="time"] {
       font-size: 3.2rem;
       display: block;
       margin-top: 10%; }
+    @media (max-height: 560px) {
+      .header .hero {
+        top: 30%;
+        left: 50%; }
+        .header .hero__titile {
+          letter-spacing: 2px; }
+          .header .hero__titile-sub {
+            font-size: 2.5rem;
+            text-transform: capitalize; }
+          .header .hero__titile-main {
+            font-size: 6rem;
+            text-transform: uppercase;
+            margin-bottom: 2rem; }
+        .header .hero__arrow {
+          font-size: 2rem;
+          display: block;
+          margin-top: 10%; }
+        .header .hero__paragraph {
+          text-align: center;
+          font-size: 2rem;
+          margin-bottom: 3rem !important;
+          font-style: italic;
+          letter-spacing: 2px; } }
+    @media (max-height: 384px) {
+      .header .hero {
+        top: 30%;
+        left: 50%; }
+        .header .hero__titile {
+          letter-spacing: 1px; }
+          .header .hero__titile-sub {
+            font-size: 2rem;
+            text-transform: capitalize; }
+          .header .hero__titile-main {
+            font-size: 4rem;
+            text-transform: uppercase;
+            margin-bottom: 1rem; }
+        .header .hero__arrow {
+          font-size: 2rem;
+          display: block;
+          margin-top: 10%; }
+        .header .hero__paragraph {
+          text-align: center;
+          font-size: 2rem;
+          margin-bottom: 2rem !important;
+          font-style: italic;
+          letter-spacing: 1.5px; } }
+    @media (max-height: 320px) {
+      .header .hero {
+        top: 20%;
+        left: 50%; }
+        .header .hero__titile {
+          letter-spacing: 1px; }
+          .header .hero__titile-sub {
+            font-size: 1.5rem;
+            text-transform: capitalize; }
+          .header .hero__titile-main {
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            margin-bottom: 1rem; }
+        .header .hero__arrow {
+          font-size: 2rem;
+          display: block;
+          margin-top: 5%; }
+        .header .hero__paragraph {
+          text-align: center;
+          font-size: 2rem;
+          margin-bottom: 2rem !important;
+          font-style: italic;
+          letter-spacing: 2px; } }
 
 .about-us__text {
   padding: 10rem 5rem;
