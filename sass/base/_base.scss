@@ -21,4 +21,9 @@ html {
   @include respond(extra-large) {
     font-size: 68.75%; //1rem = 11, 11/16 68.75%
   }
+
+  // height base queries
+  @include respondHeight(extra-small) {
+    font-size: 50%; //1rem = 11, 11/16 68.75%
+  }
 }

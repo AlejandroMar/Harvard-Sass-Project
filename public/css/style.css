@@ -7068,6 +7068,9 @@ html {
   @media only screen and (min-width: 74.93em) {
     html {
       font-size: 68.75%; } }
+  @media only screen and (max-height: 30em) {
+    html {
+      font-size: 50%; } }
 
 .navigation {
   transition: 1s ease;
@@ -7333,75 +7336,6 @@ input[type="time"] {
       font-size: 3.2rem;
       display: block;
       margin-top: 10%; }
-    @media (max-height: 560px) {
-      .header .hero {
-        top: 30%;
-        left: 50%; }
-        .header .hero__titile {
-          letter-spacing: 2px; }
-          .header .hero__titile-sub {
-            font-size: 2.5rem;
-            text-transform: capitalize; }
-          .header .hero__titile-main {
-            font-size: 6rem;
-            text-transform: uppercase;
-            margin-bottom: 2rem; }
-        .header .hero__arrow {
-          font-size: 2rem;
-          display: block;
-          margin-top: 10%; }
-        .header .hero__paragraph {
-          text-align: center;
-          font-size: 2rem;
-          margin-bottom: 3rem !important;
-          font-style: italic;
-          letter-spacing: 2px; } }
-    @media (max-height: 384px) {
-      .header .hero {
-        top: 30%;
-        left: 50%; }
-        .header .hero__titile {
-          letter-spacing: 1px; }
-          .header .hero__titile-sub {
-            font-size: 2rem;
-            text-transform: capitalize; }
-          .header .hero__titile-main {
-            font-size: 4rem;
-            text-transform: uppercase;
-            margin-bottom: 1rem; }
-        .header .hero__arrow {
-          font-size: 2rem;
-          display: block;
-          margin-top: 10%; }
-        .header .hero__paragraph {
-          text-align: center;
-          font-size: 2rem;
-          margin-bottom: 2rem !important;
-          font-style: italic;
-          letter-spacing: 1.5px; } }
-    @media (max-height: 320px) {
-      .header .hero {
-        top: 20%;
-        left: 50%; }
-        .header .hero__titile {
-          letter-spacing: 1px; }
-          .header .hero__titile-sub {
-            font-size: 1.5rem;
-            text-transform: capitalize; }
-          .header .hero__titile-main {
-            font-size: 3.5rem;
-            text-transform: uppercase;
-            margin-bottom: 1rem; }
-        .header .hero__arrow {
-          font-size: 2rem;
-          display: block;
-          margin-top: 5%; }
-        .header .hero__paragraph {
-          text-align: center;
-          font-size: 2rem;
-          margin-bottom: 2rem !important;
-          font-style: italic;
-          letter-spacing: 2px; } }
 
 .about-us__text {
   padding: 10rem 5rem;
