@@ -39,5 +39,114 @@
       display: block;
       margin-top: 10%;
     }
+
+    // 840px height
+    @media screen and (max-height: 52.5em) {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      color: $color-white;
+
+      &__titile {
+        letter-spacing: 2px;
+        &-sub {
+          font-size: 2.5rem;
+          text-transform: capitalize;
+        }
+        &-main {
+          font-size: 6rem;
+          text-transform: uppercase;
+          margin-bottom: 2.5rem;
+        }
+      }
+
+      &__paragraph {
+        text-align: center;
+        font-size: 2.5rem;
+        font-style: italic;
+        letter-spacing: 2px;
+      }
+
+      &__arrow {
+        font-size: 3.2rem;
+        display: block;
+        margin-top: 10%;
+      }
+    }
+
+    // 640 px height
+    @media screen and (max-height: 40em) {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      color: $color-white;
+
+      &__titile {
+        letter-spacing: 2px;
+        &-sub {
+          font-size: 2rem;
+          text-transform: capitalize;
+        }
+        &-main {
+          font-size: 5rem;
+          text-transform: uppercase;
+          margin-bottom: 2.5rem;
+        }
+      }
+
+      &__paragraph {
+        text-align: center;
+        font-size: 2.5rem;
+        font-style: italic;
+        letter-spacing: 2px;
+      }
+
+      &__arrow {
+        font-size: 3.2rem;
+        display: block;
+        margin-top: 10%;
+      }
+    }
+
+    // 320 height px
+    @media screen and (max-height: 26.25em) {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      color: $color-white;
+
+      &__titile {
+        letter-spacing: 2px;
+        &-sub {
+          font-size: rem;
+          text-transform: capitalize;
+        }
+        &-main {
+          font-size: 4rem;
+          text-transform: uppercase;
+          margin-bottom: 1.8rem;
+        }
+      }
+
+      &__paragraph {
+        text-align: center;
+        font-size: 2rem;
+        font-style: italic;
+        letter-spacing: 1px;
+        margin-bottom: 2rem !important;
+      }
+
+      &__arrow {
+        font-size: 3.2rem;
+        display: block;
+        margin-top: 5%;
+      }
+    }
   }
 }

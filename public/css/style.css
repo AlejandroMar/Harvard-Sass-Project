@@ -7336,6 +7336,85 @@ input[type="time"] {
       font-size: 3.2rem;
       display: block;
       margin-top: 10%; }
+    @media screen and (max-height: 52.5em) {
+      .header .hero {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: #fff; }
+        .header .hero__titile {
+          letter-spacing: 2px; }
+          .header .hero__titile-sub {
+            font-size: 2.5rem;
+            text-transform: capitalize; }
+          .header .hero__titile-main {
+            font-size: 6rem;
+            text-transform: uppercase;
+            margin-bottom: 2.5rem; }
+        .header .hero__paragraph {
+          text-align: center;
+          font-size: 2.5rem;
+          font-style: italic;
+          letter-spacing: 2px; }
+        .header .hero__arrow {
+          font-size: 3.2rem;
+          display: block;
+          margin-top: 10%; } }
+    @media screen and (max-height: 40em) {
+      .header .hero {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: #fff; }
+        .header .hero__titile {
+          letter-spacing: 2px; }
+          .header .hero__titile-sub {
+            font-size: 2rem;
+            text-transform: capitalize; }
+          .header .hero__titile-main {
+            font-size: 5rem;
+            text-transform: uppercase;
+            margin-bottom: 2.5rem; }
+        .header .hero__paragraph {
+          text-align: center;
+          font-size: 2.5rem;
+          font-style: italic;
+          letter-spacing: 2px; }
+        .header .hero__arrow {
+          font-size: 3.2rem;
+          display: block;
+          margin-top: 10%; } }
+    @media screen and (max-height: 26.25em) {
+      .header .hero {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: #fff; }
+        .header .hero__titile {
+          letter-spacing: 2px; }
+          .header .hero__titile-sub {
+            font-size: rem;
+            text-transform: capitalize; }
+          .header .hero__titile-main {
+            font-size: 4rem;
+            text-transform: uppercase;
+            margin-bottom: 1.8rem; }
+        .header .hero__paragraph {
+          text-align: center;
+          font-size: 2rem;
+          font-style: italic;
+          letter-spacing: 1px;
+          margin-bottom: 2rem !important; }
+        .header .hero__arrow {
+          font-size: 3.2rem;
+          display: block;
+          margin-top: 5%; } }
 
 .about-us__text {
   padding: 10rem 5rem;
