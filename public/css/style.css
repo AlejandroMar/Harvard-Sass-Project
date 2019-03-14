@@ -7113,33 +7113,53 @@ html {
     position: relative;
     cursor: pointer;
     transition: all 0.3s; }
-  .motives__img-1 > img {
-    width: 100%;
-    transition: all 0.3s; }
+  .motives__img-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .motives__img-1 > img {
+      width: 100%;
+      transition: all 0.3s; }
   .motives__img-1:hover > .motives__hovertext {
     visibility: visible;
     opacity: 1; }
   .motives__img-1:hover > img {
     filter: brightness(50%); }
-  .motives__img-2 > img {
-    width: 100%;
-    transition: all 0.3s; }
+  .motives__img-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .motives__img-2 > img {
+      width: 100%;
+      transition: all 0.3s; }
   .motives__img-2:hover > .motives__hovertext {
     visibility: visible;
     opacity: 1; }
   .motives__img-2:hover > img {
     filter: brightness(50%); }
-  .motives__img-3 > img {
-    width: 100%;
-    transition: all 0.3s; }
+  .motives__img-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .motives__img-3 > img {
+      width: 100%;
+      transition: all 0.3s; }
   .motives__img-3:hover > .motives__hovertext {
     visibility: visible;
     opacity: 1; }
   .motives__img-3:hover > img {
     filter: brightness(50%); }
-  .motives__img-4 > img {
-    width: 100%;
-    transition: all 0.3s; }
+  .motives__img-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .motives__img-4 > img {
+      width: 100%;
+      transition: all 0.3s; }
   .motives__img-4:hover > .motives__hovertext {
     visibility: visible;
     opacity: 1; }
@@ -7147,9 +7167,7 @@ html {
     filter: brightness(50%); }
   .motives__hovertext {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translatex(-50%);
+    z-index: 10;
     color: #fff;
     text-align: center;
     opacity: 0;
@@ -7159,9 +7177,21 @@ html {
     .motives__hovertext-h3 {
       font-size: 2.5rem;
       text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
+      @media only screen and (max-width: 48em) {
+        .motives__hovertext-h3 {
+          font-size: 1.5rem; } }
+      @media only screen and (max-width: 36em) {
+        .motives__hovertext-h3 {
+          font-size: 2.5rem; } }
     .motives__hovertext-h2 {
       font-size: 3rem;
       text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
+      @media only screen and (max-width: 48em) {
+        .motives__hovertext-h2 {
+          font-size: 2.5rem; } }
+      @media only screen and (max-width: 36em) {
+        .motives__hovertext-h2 {
+          font-size: 3rem; } }
 
 .card {
   margin: 0;
@@ -7188,9 +7218,14 @@ html {
   cursor: pointer;
   transition: all 0.3s; }
 
-.specialties__img-1 > img {
-  width: 100%;
-  transition: all 0.3s; }
+.specialties__img-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .specialties__img-1 > img {
+    width: 100%;
+    transition: all 0.3s; }
 
 .specialties__img-1:hover > .specialties__hovertext {
   visibility: visible;
@@ -7199,9 +7234,14 @@ html {
 .specialties__img-1:hover > img {
   filter: brightness(50%); }
 
-.specialties__img-2 > img {
-  width: 100%;
-  transition: all 0.3s; }
+.specialties__img-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .specialties__img-2 > img {
+    width: 100%;
+    transition: all 0.3s; }
 
 .specialties__img-2:hover > .specialties__hovertext {
   visibility: visible;
@@ -7210,9 +7250,14 @@ html {
 .specialties__img-2:hover > img {
   filter: brightness(50%); }
 
-.specialties__img-3 > img {
-  width: 100%;
-  transition: all 0.3s; }
+.specialties__img-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .specialties__img-3 > img {
+    width: 100%;
+    transition: all 0.3s; }
 
 .specialties__img-3:hover > .specialties__hovertext {
   visibility: visible;
@@ -7221,9 +7266,14 @@ html {
 .specialties__img-3:hover > img {
   filter: brightness(50%); }
 
-.specialties__img-4 > img {
-  width: 100%;
-  transition: all 0.3s; }
+.specialties__img-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .specialties__img-4 > img {
+    width: 100%;
+    transition: all 0.3s; }
 
 .specialties__img-4:hover > .specialties__hovertext {
   visibility: visible;
