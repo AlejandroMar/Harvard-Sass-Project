@@ -10,6 +10,10 @@
   // it will be motive__img-1 or specialties__img-1
   @for $i from 1 through 4 {
     &__img-#{$i} {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       @extend %common;
       > img {
         width: 100%;
