@@ -7079,6 +7079,8 @@ html {
   padding-bottom: 1rem; }
   .navigation.scrolled {
     background: #333; }
+  .navigation .navbar-toggler {
+    margin-right: 1.5rem; }
   .navigation .navbar-toggler-icon {
     font-size: 1.8rem; }
   .navigation .navbar .nav {
