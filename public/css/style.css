@@ -7056,13 +7056,10 @@ ORDER: Base + typography > general layout + grid > page layout > components
 */
 html {
   font-size: 62.5%; }
-  @media only screen and (max-width: 35.99em) {
+  @media only screen and (max-width: 36em) {
     html {
       font-size: 50%; } }
-  @media only screen and (min-width: 36em) {
-    html {
-      font-size: 56.25%; } }
-  @media only screen and (min-width: 48em) {
+  @media only screen and (max-width: 48em) {
     html {
       font-size: 62.5%; } }
   @media only screen and (min-width: 74.93em) {
@@ -7422,6 +7419,10 @@ input[type="time"] {
   padding: 10rem 5rem;
   border-right: 1px solid #a29f9f;
   border-left: 1px solid #a29f9f; }
+  @media only screen and (max-width: 36em) {
+    .about-us__text {
+      padding: 10rem 7rem;
+      border: none; } }
 
 .about-us__title {
   font-size: 3rem; }
@@ -7442,6 +7443,12 @@ input[type="time"] {
   text-align: center;
   padding-top: 15%;
   border-right: 1px solid #a29f9f; }
+  @media only screen and (max-width: 48em) {
+    .about-us__foto {
+      border-left: 1px solid #a29f9f; } }
+  @media only screen and (max-width: 36em) {
+    .about-us__foto {
+      border: none; } }
   .about-us__foto-block {
     margin: 0 auto; }
   .about-us__foto-fruit {

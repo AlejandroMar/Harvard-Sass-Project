@@ -3,6 +3,11 @@
     padding: 10rem 5rem;
     border-right: 1px solid rgb(162, 159, 159);
     border-left: 1px solid rgb(162, 159, 159);
+    @include respond(small) {
+      padding: 10rem 7rem;
+      border: none;
+      // border-bottom: 1px solid rgb(162, 159, 159);
+    }
   }
   &__title {
     font-size: 3rem;
@@ -27,6 +32,14 @@
     text-align: center;
     padding-top: 15%;
     border-right: 1px solid rgb(162, 159, 159);
+
+    @include respond(medium) {
+      border-left: 1px solid rgb(162, 159, 159);
+    }
+
+    @include respond(small) {
+      border: none;
+    }
 
     &-block {
       margin: 0 auto;
