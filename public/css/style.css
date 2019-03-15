@@ -7206,7 +7206,7 @@ html {
   margin: 0;
   overflow: hidden;
   box-shadow: 0.6rem 0.8rem 6rem rgba(0, 0, 0, 0.5);
-  transition: all 0.2s; }
+  transition: all 0.2s ease; }
   .card-body {
     padding: 1rem; }
   .card-title {
@@ -7218,7 +7218,7 @@ html {
     margin-bottom: 0.5rem; }
   .card:hover {
     box-shadow: 0.7rem 0.9rem 10rem rgba(0, 0, 0, 0.5);
-    transform: translateY(-10px); }
+    transform: translateY(-10px) scale(1.04); }
 
 .specialties .motives__img-1, .specialties .motives__img-2, .specialties .motives__img-3, .specialties .motives__img-4, .specialties .specialties__img-1, .specialties .specialties__img-2, .specialties .specialties__img-3, .specialties .specialties__img-4 {
   padding-right: 0;
