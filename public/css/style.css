@@ -7293,12 +7293,14 @@ html {
 
 .specialties__hovertext {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: 2px #fff solid;
-  /* width: 90%;
-    height: 90%; */
-  /* top: 5%;
-    left: 5%; */
   background-color: rgba(255, 119, 48, 0.1);
+  width: 90%;
+  height: 90%;
   color: #fff;
   text-align: center;
   opacity: 0;
@@ -7308,9 +7310,30 @@ html {
   .specialties__hovertext-h3 {
     font-size: 2rem;
     text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
+    @media only screen and (max-width: 62em) {
+      .specialties__hovertext-h3 {
+        font-size: 1.5rem; } }
+    @media only screen and (max-width: 48em) {
+      .specialties__hovertext-h3 {
+        font-size: 1.5rem; } }
+    @media screen and (max-width: 650px) {
+      .specialties__hovertext-h3 {
+        font-size: 1rem; } }
+    @media only screen and (max-width: 36em) {
+      .specialties__hovertext-h3 {
+        font-size: 2.5rem; } }
   .specialties__hovertext-h2 {
     font-size: 2.5rem;
     text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
+    @media only screen and (max-width: 62em) {
+      .specialties__hovertext-h2 {
+        font-size: 2rem; } }
+    @media only screen and (max-width: 48em) {
+      .specialties__hovertext-h2 {
+        font-size: 1.6rem; } }
+    @media only screen and (max-width: 36em) {
+      .specialties__hovertext-h2 {
+        font-size: 3rem; } }
 
 .title-comp__text-h2 {
   font-size: 5rem; }

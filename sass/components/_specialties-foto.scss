@@ -3,12 +3,14 @@
 
   &__hovertext {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 2px $color-white solid;
-    /* width: 90%;
-    height: 90%; */
-    /* top: 5%;
-    left: 5%; */
     background-color: rgba($color-secondary-dark, 0.1);
+    width: 90%;
+    height: 90%;
     color: $color-white;
     text-align: center;
     opacity: 0;
@@ -17,14 +19,39 @@
     visibility: hidden;
 
     &-h3 {
-      //margin-top: 25%;
       font-size: 2rem;
       text-shadow: 1rem 1.5rem 4rem rgba($color-black, 0.5);
+
+      @include respond(large) {
+        font-size: 1.5rem;
+      }
+
+      @include respond(medium) {
+        font-size: 1.5rem;
+      }
+      @media screen and (max-width: 650px) {
+        font-size: 1rem;
+      }
+      @include respond(small) {
+        font-size: 2.5rem;
+      }
     }
 
     &-h2 {
       font-size: 2.5rem;
       text-shadow: 1rem 1.5rem 4rem rgba($color-black, 0.5);
+
+      @include respond(large) {
+        font-size: 2rem;
+      }
+
+      @include respond(medium) {
+        font-size: 1.6rem;
+      }
+
+      @include respond(small) {
+        font-size: 3rem;
+      }
     }
   }
 }
