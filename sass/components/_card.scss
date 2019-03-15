@@ -2,8 +2,7 @@
   margin: 0;
   overflow: hidden;
   box-shadow: 0.6rem 0.8rem 6rem rgba($color-black, 0.5);
-
-  transition: all 0.2s;
+  transition: all 0.2s ease;
 
   &-body {
     padding: 1rem;
@@ -22,6 +21,6 @@
 
   &:hover {
     box-shadow: 0.7rem 0.9rem 10rem rgba($color-black, 0.5);
-    transform: translateY(-10px);
+    transform: translateY(-10px) scale(1.04);
   }
 }
