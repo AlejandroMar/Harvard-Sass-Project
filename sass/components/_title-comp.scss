@@ -13,4 +13,21 @@
       color: $color-grey-dark;
     }
   }
+
+  @include respond(small) {
+    &__text {
+      &-h2 {
+        font-size: $title-font-small;
+      }
+
+      &-h3 {
+        font-size: $sub-title-font-small;
+      }
+
+      &-paragraph {
+        font-size: $title-font-paragraph-small;
+        color: $color-grey-dark;
+      }
+    }
+  }
 }

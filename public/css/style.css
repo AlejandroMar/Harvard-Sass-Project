@@ -7322,6 +7322,15 @@ html {
   font-size: 1.6rem;
   color: #777; }
 
+@media only screen and (max-width: 36em) {
+  .title-comp__text-h2 {
+    font-size: 3rem; }
+  .title-comp__text-h3 {
+    font-size: 1.8rem; }
+  .title-comp__text-paragraph {
+    font-size: 1.5;
+    color: #777; } }
+
 .menu-btn-comp {
   margin: 10rem 0; }
 
