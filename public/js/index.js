@@ -14,4 +14,14 @@ $(document).ready(function() {
   $(".navbar").click(function() {
     $(this).toggleClass("navbar-clicked");
   });
+
+    const navbar = document.querySelectorAll('.nav li');
+    navbar.forEach(function(elem) {
+        elem.addEventListener('click', function(){ 
+            if(window.innerWidth < 992){
+                document.querySelector('.navbar-toggler').click()
+            }
+            
+        })
+    })
 });
