@@ -9,7 +9,7 @@
   }
   .navbar {
     &-clicked {
-      @include respond(tab-port) {
+      @include respond(large) {
         background-color: rgba($color-grey-dark-3, 0.6);
       }
     }
