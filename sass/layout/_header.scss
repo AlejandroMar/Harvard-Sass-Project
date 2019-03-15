@@ -38,6 +38,11 @@
       font-size: 3.2rem;
       display: block;
       margin-top: 10%;
+
+      &:hover {
+        text-decoration: none;
+        color: lighten($color-primary-light, 15);
+      }
     }
 
     // 840px height

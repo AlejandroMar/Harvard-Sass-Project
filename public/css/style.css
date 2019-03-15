@@ -7425,6 +7425,9 @@ input[type="time"] {
       font-size: 3.2rem;
       display: block;
       margin-top: 10%; }
+      .header .hero__arrow:hover {
+        text-decoration: none;
+        color: #b3e6aa; }
     @media screen and (max-height: 52.5em) {
       .header .hero {
         position: absolute;
