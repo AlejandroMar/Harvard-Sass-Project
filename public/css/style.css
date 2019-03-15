@@ -7598,10 +7598,13 @@ input[type="time"] {
       color: #22a963; }
   .footer__form {
     margin-top: -11rem; }
+    @media only screen and (max-width: 48em) {
+      .footer__form {
+        margin-top: 2rem; } }
     .footer__form__body {
       background-color: #eee;
       padding: 3rem;
-      width: 90%;
+      width: 100%;
       box-shadow: 0.7rem 0.9rem 10rem rgba(0, 0, 0, 0.5);
       border-radius: 5px; }
 
