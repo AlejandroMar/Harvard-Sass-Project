@@ -7076,6 +7076,9 @@ html {
   padding-bottom: 1rem; }
   .navigation.scrolled {
     background: #333; }
+  @media only screen and (max-width: 62em) {
+    .navigation .navbar-clicked {
+      background-color: rgba(51, 51, 51, 0.6); } }
   .navigation .navbar-toggler {
     margin-right: 1.5rem; }
   .navigation .navbar-toggler-icon {
@@ -7180,6 +7183,9 @@ html {
       @media only screen and (max-width: 48em) {
         .motives__hovertext-h3 {
           font-size: 1.5rem; } }
+      @media screen and (max-width: 650px) {
+        .motives__hovertext-h3 {
+          font-size: 1rem; } }
       @media only screen and (max-width: 36em) {
         .motives__hovertext-h3 {
           font-size: 2.5rem; } }
@@ -7189,6 +7195,9 @@ html {
       @media only screen and (max-width: 48em) {
         .motives__hovertext-h2 {
           font-size: 2.5rem; } }
+      @media screen and (max-width: 650px) {
+        .motives__hovertext-h2 {
+          font-size: 2rem; } }
       @media only screen and (max-width: 36em) {
         .motives__hovertext-h2 {
           font-size: 3rem; } }
@@ -7285,10 +7294,10 @@ html {
 .specialties__hovertext {
   position: absolute;
   border: 2px #fff solid;
-  width: 90%;
-  height: 90%;
-  top: 5%;
-  left: 5%;
+  /* width: 90%;
+    height: 90%; */
+  /* top: 5%;
+    left: 5%; */
   background-color: rgba(255, 119, 48, 0.1);
   color: #fff;
   text-align: center;
@@ -7297,7 +7306,6 @@ html {
   text-shadow: 12rem 1.5rem 4rem rgba(0, 0, 0, 0.5);
   visibility: hidden; }
   .specialties__hovertext-h3 {
-    margin-top: 25%;
     font-size: 2rem;
     text-shadow: 1rem 1.5rem 4rem rgba(0, 0, 0, 0.5); }
   .specialties__hovertext-h2 {
