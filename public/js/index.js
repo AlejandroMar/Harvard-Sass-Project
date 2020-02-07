@@ -25,7 +25,7 @@ $(document).ready(function() {
     });
   });
 
-  //smoth scroll
+  //smooth scroll
   $(".nav a, .arrow").on("click", function(event) {
     console.log("helo");
 
