@@ -1,24 +1,26 @@
-$(document).ready(function() {
+$(document).ready(function () {
+  // update links in a navigation list based on scroll position.
   $("body").scrollspy({ target: ".nav" });
+
+  // change navbar background if windowTop > headerHeight
+  const headerHeight = $(".header").height();
+  const windowTop = $(window).scrollTop();
+  addRemoveScrollClass(windowTop, headerHeight); 
+
   // change navbar background color on scroll
-  $(document).scroll(function() {
+  $(document).scroll(function () {
     // get the height of the hero image in the header
-    const headerHeight = $(".header").height();
     const scroll = $(window).scrollTop();
-    if (scroll > headerHeight) {
-      // see the classes in _custom-nav.scss
-      $(".navigation").addClass("scrolled");
-    } else {
-      $(".navigation").removeClass("scrolled");
-    }
+    addRemoveScrollClass(scroll, headerHeight) 
   });
-  $(".navbar").click(function() {
+
+  $(".navbar").click(function () {
     $(this).toggleClass("navbar-clicked");
   });
 
   const navbar = document.querySelectorAll(".nav li");
-  navbar.forEach(function(elem) {
-    elem.addEventListener("click", function() {
+  navbar.forEach(function (elem) {
+    elem.addEventListener("click", function () {
       if (window.innerWidth < 992) {
         document.querySelector(".navbar-toggler").click();
       }
@@ -26,8 +28,7 @@ $(document).ready(function() {
   });
 
   //smooth scroll
-  $(".nav a, .arrow").on("click", function(event) {
-    console.log("helo");
+  $(".nav a, .arrow").on("click", function (event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
@@ -44,7 +45,7 @@ $(document).ready(function() {
           scrollTop: $(hash).offset().top
         },
         700,
-        function() {
+        function () {
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
         }
@@ -52,3 +53,14 @@ $(document).ready(function() {
     } // End if
   });
 });
+
+
+function addRemoveScrollClass(firstMeasure, secondMeasure) {
+  if (firstMeasure > secondMeasure) {
+    console.log('hellos momo')
+    // see the classes in _custom-nav.scss
+    $(".navigation").addClass("scrolled");
+  } else {
+    $(".navigation").removeClass("scrolled");
+  }
+}
