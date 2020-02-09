@@ -7674,20 +7674,19 @@ input[type="time"] {
   font-size: 1.5rem;
   color: #333; }
 
-.specialties-list__title {
-  font-size: 5rem;
-  font-weight: 300; }
-
-.specialties-list__paragraph {
-  font-size: 1.6rem;
-  color: #777;
-  font-weight: 300; }
-
-.specialties-list__arrow {
-  font-size: 3.2rem; }
-
-.specialties-list .specialties-list__img {
-  width: 100%; }
+.specialties-list {
+  margin-bottom: 5rem; }
+  .specialties-list__title {
+    font-size: 5rem;
+    font-weight: 300; }
+  .specialties-list__paragraph {
+    font-size: 1.6rem;
+    color: #777;
+    font-weight: 300; }
+  .specialties-list__arrow {
+    font-size: 3.2rem; }
+  .specialties-list .specialties-list__img {
+    width: 100%; }
 
 .star-comp .star-checked {
   color: orange; }
