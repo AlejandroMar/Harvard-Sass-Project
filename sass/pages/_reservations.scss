@@ -1,5 +1,7 @@
 .reservations {
   position: relative;
+  
+
 
   &__title {
     height: 30vh;
@@ -7,8 +9,10 @@
 
   &__form {
     border: 2px solid black;
+    border-radius: .5rem;
     box-shadow: $box-shadow;
     background-color: $color-grey-light-2;
     padding: 4rem;
+    margin-bottom: -2rem;
   }
 }

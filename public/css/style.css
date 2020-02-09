@@ -7695,9 +7695,11 @@ input[type="time"] {
     height: 30vh; }
   .reservations__form {
     border: 2px solid black;
+    border-radius: .5rem;
     box-shadow: 0.7rem 0.9rem 10rem rgba(0, 0, 0, 0.5);
     background-color: #eee;
-    padding: 4rem; }
+    padding: 4rem;
+    margin-bottom: -2rem; }
 
 /*
  * Sidebar
