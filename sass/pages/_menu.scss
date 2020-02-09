@@ -7,8 +7,9 @@
   margin-bottom: -2rem;
   
   &__header {
-    height: 30rem;
-    margin-bottom: 5rem;
+    height: 60vh;
+    margin-bottom: 5rem; 
+    padding-top: 5rem;
     background-image: url("../img/vegetales.jpeg");
     background-position: center bottom;
     background-size: cover;
@@ -22,7 +23,7 @@
 
   &__title {
     margin-bottom: 5rem;
-    padding-top: 6rem;
+    padding-top: 10rem;
   }
 }
 
