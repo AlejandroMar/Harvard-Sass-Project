@@ -2,7 +2,10 @@
   border: 0.5rem solid $menu-border-color;
   padding: 2rem;
   box-shadow: 0.7rem 0.9rem 3rem rgba($color-black, 0.5);
-
+  position: relative;
+  background-color: $color-grey-light-2;
+  margin-bottom: -2rem;
+  
   &__header {
     height: 30rem;
     margin-bottom: 5rem;
